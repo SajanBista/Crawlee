@@ -1,0 +1,23 @@
+{
+  "name": "crawlee",
+  "version": "1.0.0",
+  "description": "Using, learning crawlee framework of Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SajanBista/Crawlee.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SajanBista/Crawlee/issues"
+  },
+  "homepage": "https://github.com/SajanBista/Crawlee#readme",
+  "dependencies": {
+    "crawlee": "^3.15.2"
+  }
+}
