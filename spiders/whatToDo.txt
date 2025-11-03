@@ -1,0 +1,32 @@
+What you need to master now:
+
+Node.js basics (only the essential parts: modules, npm, async/await)
+
+HTML & CSS selectors (for choosing elements to extract)
+
+Web scraping with Crawlee (CheerioCrawler & PlaywrightCrawler)
+
+Headless automation via Playwright or Puppeteer
+
+Saving and exporting data cleanly (JSON, CSV, DB, etc.)
+
+Handling dynamic websites, pagination, and edge cases
+
+Proxy usage & bot detection prevention
+
+
+Modules in javaScripts
+        two types: Commom modules also known as Node
+        ES Module: work in both node and browser=> this supports Import/export syntax and is more preferable 
+
+fetch.js:-
+    responsible for getting raw html or json datas from the website or API's
+
+    axios:-
+    - promise-based http client for Node.js and the browser
+    - let you send GET, PUT, POST,DELETE, etcs. requests to the servers or API's
+    ``` bash 
+            npm install axios
+        
+
+
