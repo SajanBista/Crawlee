@@ -1,4 +1,4 @@
-console.log("==========GET REQUEST========");
+/*console.log("==========GET REQUEST========");
 
 import axios from 'axios';
 
@@ -57,3 +57,21 @@ axios.delete('https://jsonplaceholder.typicode.com/posts/1')
   });
 
 
+*/
+
+import axios from 'axios';
+
+console.log("async/await");
+
+async function fetchpost(){
+    try{
+        const response = await axios.get('https://jsonplaceholder.typicode.com/posts/1');
+        console.log("Async/Await: ", response.data);
+    
+    }
+    catch (error){
+        console.log("Error: ", error);
+    }
+}
+
+fetchpost();
