@@ -1,0 +1,118 @@
+{
+  "usableSessionsCount": 2,
+  "retiredSessionsCount": 0,
+  "sessions": [
+    {
+      "id": "session_jp0KNFMbBG",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-04T18:26:55.348Z",
+      "createdAt": "2025-11-04T17:36:55.348Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_EQtRr3OLPc",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "WMF-Last-Access",
+            "value": "04-Nov-2025",
+            "expires": "2025-12-06T12:00:00.000Z",
+            "domain": "en.wikipedia.org",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2025-11-04T17:36:56.301Z",
+            "lastAccessed": "2025-11-04T17:36:56.301Z"
+          },
+          {
+            "key": "WMF-Last-Access-Global",
+            "value": "04-Nov-2025",
+            "expires": "2025-12-06T12:00:00.000Z",
+            "domain": "wikipedia.org",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2025-11-04T17:36:56.301Z",
+            "lastAccessed": "2025-11-04T17:36:56.301Z"
+          },
+          {
+            "key": "WMF-DP",
+            "value": "db7",
+            "expires": "2025-11-05T00:00:00.000Z",
+            "domain": "en.wikipedia.org",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2025-11-04T17:36:56.304Z",
+            "lastAccessed": "2025-11-04T17:36:56.304Z"
+          },
+          {
+            "key": "GeoIP",
+            "value": "NP:P3:Kathmandu:27.71:85.33:v4",
+            "domain": "wikipedia.org",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-04T17:36:56.304Z",
+            "lastAccessed": "2025-11-04T17:36:56.304Z"
+          },
+          {
+            "key": "NetworkProbeLimit",
+            "value": "0.001",
+            "maxAge": 3600,
+            "domain": "en.wikipedia.org",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-04T17:36:56.306Z",
+            "lastAccessed": "2025-11-04T17:36:56.306Z",
+            "sameSite": "none"
+          },
+          {
+            "key": "WMF-Uniq",
+            "value": "WlbWJ1VDvYpj0COB5GVNGAKhAAAAAFvd3W7jEYYM-1JjRqHXOLa7-l-Z88ub4cnq",
+            "expires": "2026-11-04T00:00:00.000Z",
+            "domain": "wikipedia.org",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2025-11-04T17:36:56.306Z",
+            "lastAccessed": "2025-11-04T17:36:56.306Z",
+            "sameSite": "none"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-04T18:26:55.413Z",
+      "createdAt": "2025-11-04T17:36:55.413Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    }
+  ]
+}

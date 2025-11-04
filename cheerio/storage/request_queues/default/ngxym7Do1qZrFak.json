@@ -1,0 +1,9 @@
+{
+	"id": "ngxym7Do1qZrFak",
+	"json": "{\"id\":\"ngxym7Do1qZrFak\",\"url\":\"https://en.wikipedia.org/wiki/Web_scraping\",\"loadedUrl\":\"https://en.wikipedia.org/wiki/Web_scraping\",\"uniqueKey\":\"https://en.wikipedia.org/wiki/Web_scraping\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-11-04T17:36:56.314Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://en.wikipedia.org/wiki/Web_scraping",
+	"url": "https://en.wikipedia.org/wiki/Web_scraping"
+}
