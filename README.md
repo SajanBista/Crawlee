@@ -19,6 +19,7 @@ Crawlee/
 ├── package.json
 ├── package-lock.json
 └── README.md
+```
 
 ## Setup
 1. Clone the repo
