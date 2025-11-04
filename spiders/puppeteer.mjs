@@ -1,39 +1,36 @@
 import puppeteer from 'puppeteer';
 
 (async () => {
-    // Replace this path with the *actual* path to your Brave executable!
-    const braveExecutablePath = '/Applications/Brave Browser.app/Contents/MacOS/Brave Browser'; 
-    
-    const browser = await puppeteer.launch({ 
-        headless: false, // Use headless for scraping speed
-        executablePath: braveExecutablePath, // <-- THIS IS THE FIX
-        args: [
-            '--no-sandbox', 
-            '--disable-setuid-sandbox',
-            // Add --user-data-dir if you want to use caching
-            '--user-data-dir=./temp-cache' 
-        ],
+    const browser = await puppeteer.launch({
+        headless: true,
+        defaultViewport: null,
     });
+
     const page = await browser.newPage();
-    const url = "https://www.newsummit.edu.np/";
-    
-    // OPTIMIZATION: Block heavy resources to speed up page load
-    await page.setRequestInterception(true);
-    page.on('request', (request) => {
-        if (['image', 'stylesheet', 'font', 'media'].includes(request.resourceType())) {
-            request.abort();
-        } else {
-            request.continue();
-        }
+
+    await page.setUserAgent(
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36'
+    );
+
+    const url = 'https://www.daraz.com.np/earphones-headsets/';
+    await page.goto(url, { waitUntil: 'networkidle2' });
+
+    // wait until at least one product name appears
+    await page.waitForSelector('.product-card__name');
+
+    const products = await page.evaluate(() => {
+        const nodes = document.querySelectorAll('.product-card__name');
+        return Array.from(nodes).map(el =>
+            Array.from(el.childNodes)
+                .filter(node => node.nodeType === Node.TEXT_NODE)
+                .map(node => node.textContent.trim())
+                .join('')
+        );
     });
 
-    try {
-        // Use 'networkidle2' to wait for JavaScript to finish loading
-        await page.goto(url, { 
-            waitUntil: 'networkidle2', 
-            timeout: 90000 // Increased timeout for robustness
-        });
+    console.log(products);
 
+<<<<<<< HEAD
         // The correct CSS Selector, no typos
         const cssSelector = 'a[href^="tel:"]'; 
 
@@ -57,4 +54,7 @@ import puppeteer from 'puppeteer';
     } finally {
         await browser.close();
     }
+=======
+    await browser.close();
+>>>>>>> 2e6220c (puppeteer)
 })();
