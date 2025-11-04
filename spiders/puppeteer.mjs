@@ -44,16 +44,16 @@ import puppeteer from 'puppeteer';
         const phoneNumber = await page.$eval(cssSelector, el => el.textContent.trim()); 
 
         if (phoneNumber) {
-            console.log('✅ Phone Number Found (via Puppeteer):');
+            console.log(' Phone Number Found (via Puppeteer):');
             // Clean up the output to show only the essential part of the number
             const cleanedNumber = phoneNumber.split('/')[0].trim();
             console.log(cleanedNumber);
         } else {
-            console.log('❌ Element found, but text content was empty.');
+            console.log(' Element found, but text content was empty.');
         }
 
     } catch (error) {
-        console.error('❌ An error occurred during scraping:', error.message);
+        console.error(' An error occurred during scraping:', error.message);
     } finally {
         await browser.close();
     }
