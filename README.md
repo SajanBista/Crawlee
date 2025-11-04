@@ -12,7 +12,7 @@ This project is a web scraping project using Node.js and Crawlee.
 - Cheerio (for HTML parsing)
 
 ## Folder Structure
-Crawlee/
+Crawlee/ \n
 ├── spiders/    ← crawler scripts
 ├── data/       ← scraped data
 ├── package.json
