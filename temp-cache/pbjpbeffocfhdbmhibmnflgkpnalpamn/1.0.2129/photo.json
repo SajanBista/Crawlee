@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "campaigns": [
+    {
+      "campaignId": "5faf1193-4485-44d1-accc-5d993ba0d1ad",
+      "logo": {
+        "imageUrl": "780be1f6-3c6d-442b-9b72-fb32b36a60e2/fedb4665-fe33-4e57-8bae-9a0b2177d20f.png",
+        "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign-best-crypto-card?utm_source=Brave_Landing_Page&utm_medium=NTT&utm_campaign=signup_to_spend46377&utm_content=best-crypto-card",
+        "alt": "EtherFi - Get your first $25 free after deposit and spend. 3% cashback or more on everything. - Join the club",
+        "companyName": "EtherFi"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "780be1f6-3c6d-442b-9b72-fb32b36a60e2/5bd5dd00-a1e2-4a40-832a-66928af2857b.jpg",
+          "creativeInstanceId": "52e4fd52-7074-4b93-a520-1f08fb59a7f4",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "513b545b-39cd-4771-bc62-d62014ed1bab/86057672-931d-4000-8879-268682f94257.jpg",
+          "creativeInstanceId": "37880030-87ce-49bc-80c8-13f3ee07a14b",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "513b545b-39cd-4771-bc62-d62014ed1bab/fedb4665-fe33-4e57-8bae-9a0b2177d20f.png",
+            "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign-best-crypto-card?utm_source=Brave_Landing_Page&utm_medium=NTT&utm_campaign=signup_to_spend46377&utm_content=best-crypto-card",
+            "alt": "EtherFi - Get your first $25 free after deposit and spend. 3% cashback or more on everything. - Join the club",
+            "companyName": "EtherFi"
+          }
+        },
+        {
+          "imageUrl": "72455ca2-705a-4416-b8b4-81fe993674e7/978aa9df-c9ec-433f-8af0-a67d0ae9a2fb.jpg",
+          "creativeInstanceId": "7e6f58c3-f7a3-4746-aa63-177a96a371f7",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "72455ca2-705a-4416-b8b4-81fe993674e7/fedb4665-fe33-4e57-8bae-9a0b2177d20f.png",
+            "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign-best-crypto-card?utm_source=Brave_Landing_Page&utm_medium=NTT&utm_campaign=signup_to_spend46377&utm_content=best-crypto-card",
+            "alt": "EtherFi - Get your first $25 free after deposit and spend. 3% cashback or more on everything. - Join the club",
+            "companyName": "EtherFi"
+          }
+        }
+      ]
+    }
+  ],
+  "campaigns2": [
+    {
+      "campaignId": "5faf1193-4485-44d1-accc-5d993ba0d1ad",
+      "logo": {
+        "imageUrl": "780be1f6-3c6d-442b-9b72-fb32b36a60e2/fedb4665-fe33-4e57-8bae-9a0b2177d20f.png",
+        "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign-best-crypto-card?utm_source=Brave_Landing_Page&utm_medium=NTT&utm_campaign=signup_to_spend46377&utm_content=best-crypto-card",
+        "alt": "EtherFi - Get your first $25 free after deposit and spend. 3% cashback or more on everything. - Join the club",
+        "companyName": "EtherFi"
+      },
+      "wallpapers": [
+        {
+          "imageUrl": "780be1f6-3c6d-442b-9b72-fb32b36a60e2/5bd5dd00-a1e2-4a40-832a-66928af2857b.jpg",
+          "creativeInstanceId": "52e4fd52-7074-4b93-a520-1f08fb59a7f4",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          }
+        },
+        {
+          "imageUrl": "513b545b-39cd-4771-bc62-d62014ed1bab/86057672-931d-4000-8879-268682f94257.jpg",
+          "creativeInstanceId": "37880030-87ce-49bc-80c8-13f3ee07a14b",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "513b545b-39cd-4771-bc62-d62014ed1bab/fedb4665-fe33-4e57-8bae-9a0b2177d20f.png",
+            "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign-best-crypto-card?utm_source=Brave_Landing_Page&utm_medium=NTT&utm_campaign=signup_to_spend46377&utm_content=best-crypto-card",
+            "alt": "EtherFi - Get your first $25 free after deposit and spend. 3% cashback or more on everything. - Join the club",
+            "companyName": "EtherFi"
+          }
+        },
+        {
+          "imageUrl": "72455ca2-705a-4416-b8b4-81fe993674e7/978aa9df-c9ec-433f-8af0-a67d0ae9a2fb.jpg",
+          "creativeInstanceId": "7e6f58c3-f7a3-4746-aa63-177a96a371f7",
+          "focalPoint": {
+            "x": 1280,
+            "y": 720
+          },
+          "logo": {
+            "imageUrl": "72455ca2-705a-4416-b8b4-81fe993674e7/fedb4665-fe33-4e57-8bae-9a0b2177d20f.png",
+            "destinationUrl": "https://www.ether.fi/cash-crypto-cashback-campaign-best-crypto-card?utm_source=Brave_Landing_Page&utm_medium=NTT&utm_campaign=signup_to_spend46377&utm_content=best-crypto-card",
+            "alt": "EtherFi - Get your first $25 free after deposit and spend. 3% cashback or more on everything. - Join the club",
+            "companyName": "EtherFi"
+          }
+        }
+      ]
+    }
+  ]
+}
