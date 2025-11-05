@@ -1,0 +1,79 @@
+{
+  "usableSessionsCount": 2,
+  "retiredSessionsCount": 0,
+  "sessions": [
+    {
+      "id": "session_LHTIt0SpXy",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-05T11:54:51.310Z",
+      "createdAt": "2025-11-05T11:04:51.310Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_uxOwijPhaf",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "bx-cookie-test",
+            "value": "1",
+            "expires": "2025-11-05T11:04:59.000Z",
+            "domain": "www.daraz.com.np",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-05T11:04:56.244Z",
+            "lastAccessed": "2025-11-05T11:04:56.244Z"
+          },
+          {
+            "key": "tfstk",
+            "value": "gSmjEF_47fnzErqOCrvPRSDdcoqscL-UDOwtKAIVBoEA61HLacJ07EYtPfhuuPHabbG7w4ADinx0BcGnrIADmncSBvlr3ioZf4jsKAm2nlJ0mxqgXBJyYBkmnlvpHxs2aYpTIlwYsjhHJxqgXQWPXe-Injr0M10TXLZ8CJITXrFvFueQwieODRCJF7VRH-eYMaI8QRCTXlhteLwgw-ETkfH-6j17QEwthpYgsIw6E8MYNGIt2E4bOxQNXGn7hritH76PU0wblWU_T_vqAvHxxRiMpNNsKqh4EftBNunjGmU7fhsu0vg-GzgX1gaoyvmTP4AC-vDxG2UKD39zXqh_D7iMIGVxuAna5mddQSnmg0anjsOz_2krDzGpagGg5q3LDcOB2gyVYWwZTN67-Gw7TL95SNV1jShHQqU7ereuHHJWF__gk827BL95StaYE852FL1xi",
+            "expires": "2026-05-04T11:04:53.000Z",
+            "domain": "daraz.com.np",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-05T11:04:56.244Z",
+            "lastAccessed": "2025-11-05T11:04:56.244Z"
+          },
+          {
+            "key": "cna",
+            "value": "Vx2SIanQzDsCARsiScUqR+KF",
+            "expires": "2026-12-10T11:04:56.143Z",
+            "domain": "daraz.com.np",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-05T11:04:56.247Z",
+            "lastAccessed": "2025-11-05T11:04:56.247Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-05T11:54:51.311Z",
+      "createdAt": "2025-11-05T11:04:51.311Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    }
+  ]
+}

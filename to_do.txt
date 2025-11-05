@@ -1,0 +1,228 @@
+JavaScript / TypeScript (async/await, promises, modules)
+
+Node.js fundamentals (process, npm, streams, environment variables)
+
+HTTP fundamentals (requests, status codes, headers, cookies, redirects, CORS basics)
+
+HTML/CSS/DOM and browser DevTools (inspection, network tab, element selectors)
+
+Selectors & parsing: CSS selectors, XPath, RegEx, querySelector/querySelectorAll
+
+Crawlee core concepts (install, crawler types, request lifecycle, RequestQueue, autoscaled pools, datasets) — hands on
+
+Headless browsers: Puppeteer and Playwright (page navigation, evaluate, event handling)
+
+Server-side parsing: Cheerio (fast HTML parsing without full browser)
+
+Pagination & infinite scroll (XHR observation, scroll emulation, load more)
+
+Authentication & sessions (login forms, cookies, JWTs, OAuth flows — but use official APIs when possible)
+
+Politeness & throttling: robots.txt, rate limiting, exponential backoff, retry policies
+
+Proxies & session pools (when required): residential vs datacenter, rotation strategies, sticky sessions
+
+Anti-bot & fingerprinting awareness (detection, not evasion) — understand how sites detect bots; do not provide bypass methods for protected systems
+
+CAPTCHAs: detection and legal mitigation (use APIs that the provider allows, or manual human solve services where permitted) — don’t instruct evasion
+
+Data storage & cleaning: JSON, CSV, databases (Postgres, Mongo), deduplication, normalization
+
+Scaling & deployment: Docker, cloud functions, scheduling, distributed crawlers, monitoring & alerting
+
+Testing, observability & maintenance: unit tests, integration tests, logging, job retries, health checks
+
+Legal / compliance / ethics: Terms of Service, copyright, robots.txt, rate limits, personal data (GDPR/CCPA), regional law differences
+2) Crawlee-specific topics you must master
+
+Installation, basic example and CLI usage.
+
+Crawler types and when to use them:
+
+CheerioCrawler — fast HTML parsing, no browser rendering.
+
+PuppeteerCrawler — full headless Chromium (JS heavy sites).
+
+PlaywrightCrawler — similar to Puppeteer but multi-browser and often faster.
+
+BasicCrawler — lower-level control.
+
+Request lifecycle: requests → enqueue → fetch → handlePageFunction → dataset / KeyValueStore.
+
+RequestQueue and RequestList usage for large crawls.
+
+AutoscaledPool / concurrency settings and bottleneck management.
+
+Sessions (cookie persistence / sticky sessions) and SessionPool for sites that require login or sticky IPs.
+
+Datasets & KeyValueStore for output, and integrating with databases.
+
+Proxy configuration (how to plug in proxy providers safely).
+
+Router patterns: route requests by URL pattern to different handlers.
+
+Retries & error handling: maxRequestRetries, custom retry logic.
+
+Crawling policies: obey robots.txt (Crawlee has helpers/you can implement), set maxConcurrency, minRequestInterval.
+
+Integrations: Apify Actors (if you plan to run at scale), cloud deployment options.
+
+Logging & metrics: structured logs, performance metrics, request counters.
+
+3) Soft constraints & ethics (very important)
+
+Always check Terms of Service for the target platform. For platforms that provide official APIs (Twitter/X, Instagram Graph, Facebook, many ecommerce sites), prefer official APIs — they’re safer, more stable, and legal.
+
+Respect robots.txt and rate limits unless you have explicit permission.
+
+Don’t provide or use techniques to evade paywalls, bypass authentication, or break CAPTCHA protections. I will not help with bypass instructions.
+
+Be careful with personal data — follow GDPR/CCPA rules if you store PII. Store and delete data according to law.
+
+For betting sites and regulated platforms: scraping can carry legal and contractual risk — consult legal counsel and prefer official partner APIs.
+
+4) Practical exercises & projects (learn by building)
+
+Project A — Site map crawler: build a Crawlee job that reads sitemap.xml and saves all product pages to a dataset.
+
+Project B — Ecommerce price tracker: use CheerioCrawler for static pages and PlaywrightCrawler for dynamic pages. Save historical price/time series to Postgres.
+
+Project C — Public forum scraper: scrape public posts (no login) and build an index for keyword search. Implement politeness and incremental crawling.
+
+Project D — Social media collector (only public data or via API): compare scraping vs official API — rate limits and data completeness.
+
+Project E — Robust pagination and retry test: create intentionally flaky endpoints and make crawler robust to timeouts and partial responses.
+
+Project F — Scaling exercise: containerize, deploy to cloud, run thousands of concurrent requests with proxy pool and monitoring.
+
+5) Common techniques you must master (without violating rules)
+
+Extract structured data from JSON-LD, Microdata, and Open Graph meta tags (often easier and cleaner than parsing HTML).
+
+Detect and handle XHR/GraphQL endpoints — many sites load data via XHR; calling their public endpoints (observed in Network tab) can be far more stable than scraping HTML (but respect TOS).
+
+Use headless browsers only when necessary — they’re heavier and costlier. Prefer Cheerio for static HTML.
+
+Implement idempotency and dedupe logic (e.g., hash URL+params) so restarts don’t double-scrape.
+
+Build robust selectors (prefer structured fields over brittle CSS paths).
+
+Log extensively (request id, URL, response time, status) and surface alerts for jobs that fail repeatedly.
+
+Use feature flags/canary runs when changing selectors to avoid mass bad data collection.
+
+6) Quick, safe Crawlee example
+
+Below is a minimal safe Crawlee example (CheerioCrawler) that scrapes a public site, respects delay, stores results in a dataset, and limits concurrency. Use this for learning only and always obey the target site’s rules.
+
+// example-crawl.js
+// npm install crawlee
+import { CheerioCrawler, Dataset } from 'crawlee';
+
+const crawler = new CheerioCrawler({
+  maxConcurrency: 5,
+  minConcurrency: 1,
+  maxRequestRetries: 2,
+  requestHandlerTimeoutSecs: 60,
+  // polite delay between requests (ms)
+  // you can implement a delay per domain if needed
+  handlePageFunction: async ({ $, request, enqueueLinks, log }) => {
+    log.info(`Processing ${request.url}`);
+
+    // Example: extract title and some meta
+    const title = $('head > title').text().trim() || null;
+    const description = $('meta[name="description"]').attr('content') || null;
+
+    await Dataset.pushData({
+      url: request.url,
+      title,
+      description,
+      fetchedAt: new Date().toISOString(),
+    });
+
+    // Optionally enqueue links found on the page (careful with scope)
+    await enqueueLinks({
+      selector: 'a[href]',
+      // allow only same hostname to avoid runaway crawl
+      globs: ['https://example.com/**'],
+    });
+  },
+
+  failedRequestHandler: async ({ request, log }) => {
+    log.error(`Request ${request.url} failed too many times`);
+  },
+});
+
+(async () => {
+  await crawler.run(['https://example.com/']); // start URL(s)
+})();
+
+
+Notes:
+
+This example does not show proxies, session pools, or headless browsing — add those only when you understand the ethical and legal implications.
+
+Always set globs/URL filters to limit scope and avoid accidentally crawling the whole web.
+
+7) Tools, libs & infrastructure you should learn
+
+Crawlee (official docs)
+
+Puppeteer & Playwright
+
+Cheerio (server-side parsing)
+
+Axios / Got / node-fetch (HTTP clients)
+
+Proxy providers (learn differences: residential vs datacenter) — choose reputable providers and follow their rules
+
+Databases: Postgres, MongoDB, ElasticSearch (for indexing), Redis (dedupe, queues)
+
+Docker, Kubernetes (for scaling), or cloud run/actors (Apify Actors, AWS Lambda, GCP Cloud Run)
+
+Monitoring: Prometheus/Grafana, or cloud provider logs
+
+CI/CD and testing frameworks
+
+8) What to avoid (short list)
+
+Don’t scrape content behind login unless you own the account or have explicit permission.
+
+Don’t harvest personal data you don’t need.
+
+Don’t attempt to “bypass” paywalls, CAPTCHAs, or access-control mechanisms.
+
+Don’t ignore rate limits or robots.txt without explicit permission.
+
+9) Learning resources (study list)
+
+Crawlee official docs and GitHub examples.
+
+Puppeteer & Playwright docs.
+
+MDN (HTTP, DOM, fetch API).
+
+Web scraping tutorials (general parsing, JSON-LD).
+
+Books/courses on Node.js, backend engineering, and web security/privacy basics.
+(If you want, I can fetch and list the most up-to-date links and tutorials — say the word and I’ll look them up.)
+
+10) Quick printable checklist (use before each project)
+
+Define legal status & ToS check (yes/no).
+
+Choose API vs scrape (prefer API).
+
+Limit scope (domains/globs).
+
+Set polite concurrency & delays.
+
+Use dataset + DB and dedupe plan.
+
+Set retries and alerts.
+
+Plan for credentials & secrets (secure storage).
+
+Schedule and monitor.
+
+Document and keep selector tests.
