@@ -1,0 +1,238 @@
+{
+  "usableSessionsCount": 4,
+  "retiredSessionsCount": 0,
+  "sessions": [
+    {
+      "id": "session_BBEUVY0mrB",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "_gh_sess",
+            "value": "hjB9A2coxP4nV0mzZoEdejkRiDSm8M3QrSUMdS4%2Bp4olCnHLT5tgXXInNCtafUYvbBvEtBwzRyfybiRsOH9rUIhlylclczr2NXLsZF40jrAs8%2BDf3SUPGv03udkTrDd33VKOoDskveVUxKYynIUkxBop4bMyCbAzzJqO7VkTxcrETuYYnqVRzkILyzAl2NOHkuzQ6BmpS3Au084WFRugjLlTGnQAZ60%2F7JlvR1a76mQeU8947JiWnICzO7afaeP5lAwDv0RMgE5HqhK4Jo6RWQ%3D%3D--Cn1X8CUCUtReo75I--K4FARpttuARdft9XoWPX5A%3D%3D",
+            "domain": "github.com",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2025-11-05T12:17:53.124Z",
+            "lastAccessed": "2025-11-05T12:17:53.124Z",
+            "sameSite": "lax"
+          },
+          {
+            "key": "_octo",
+            "value": "GH1.1.641032048.1762345071",
+            "expires": "2026-11-05T12:17:51.000Z",
+            "domain": "github.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-05T12:17:53.124Z",
+            "lastAccessed": "2025-11-05T12:17:53.124Z",
+            "sameSite": "lax"
+          },
+          {
+            "key": "logged_in",
+            "value": "no",
+            "expires": "2026-11-05T12:17:51.000Z",
+            "domain": "github.com",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2025-11-05T12:17:53.124Z",
+            "lastAccessed": "2025-11-05T12:17:53.124Z",
+            "sameSite": "lax"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-05T13:07:50.846Z",
+      "createdAt": "2025-11-05T12:17:50.846Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_IEJF2Tge6u",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "_gh_sess",
+            "value": "4ysS7TIQKBGalwXMLB1bd7rDWZZU5DOgqTsW9RVkBSRRjPI6Kj%2FvHD5FopGSwrI55pqrBv0ZnMuwGUCQWKKPWTZxn8KEMP%2BGanGKboU5caAJKjk4DiSQ5aGDYMJ5SDiMh86Iy7SKvoR5aR9tibQGw7k2eReIfNu7QDr8ruKaGEjDTtytKOdosB0bJepmpvM%2BxZ065hB6d%2B8PVV9Yk%2Bpfi3DBl0RdcJhFqHaKlPxrRcgdG%2FOwQPO1nZk23jiCdJGCDg27ZlWoeXcDX4qYLlkr0w%3D%3D--bW2qHyetn7ux%2FEs2--t2l0FXnF5fjl%2B1ISqXCxcA%3D%3D",
+            "domain": "github.com",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2025-11-05T12:17:54.615Z",
+            "lastAccessed": "2025-11-05T12:17:54.615Z",
+            "sameSite": "lax"
+          },
+          {
+            "key": "_octo",
+            "value": "GH1.1.418155280.1762345073",
+            "expires": "2026-11-05T12:17:53.000Z",
+            "domain": "github.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-05T12:17:54.615Z",
+            "lastAccessed": "2025-11-05T12:17:54.615Z",
+            "sameSite": "lax"
+          },
+          {
+            "key": "logged_in",
+            "value": "no",
+            "expires": "2026-11-05T12:17:53.000Z",
+            "domain": "github.com",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2025-11-05T12:17:54.615Z",
+            "lastAccessed": "2025-11-05T12:17:54.615Z",
+            "sameSite": "lax"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-05T13:07:53.143Z",
+      "createdAt": "2025-11-05T12:17:53.143Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_QONymsdD5t",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "_gh_sess",
+            "value": "B2UkpItNsxkqC%2FhPypZVeYz1XyRiOm48bmdEszwH5MwioEiqVhaIIxlPyqRUGEvfiRI8T9O8J6PZlKoRQgmidyMEGcfmjsx9bFr0Pb35gEL2xF5mIRPRw0VbikCvoEhYa3U3uF9%2FWwejYvkf18YNV1l1Lr7IJ3XUC9Z8vyPRZzCkEVjuU5Of%2BcuoJsj5ouEHQTjw1D6t95QlFSN7k3x1dEr1aUj9AP5PgMGb1%2FGOygPV9WZ06kH%2BgyMCuQzsiETGSXPLyJJ5BATuyGl3aNczyg%3D%3D--3WNUDuAnnXPBEeIm--T6S5M%2FQR76WZBIbMejgu%2FQ%3D%3D",
+            "domain": "github.com",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2025-11-05T12:17:54.397Z",
+            "lastAccessed": "2025-11-05T12:17:54.397Z",
+            "sameSite": "lax"
+          },
+          {
+            "key": "_octo",
+            "value": "GH1.1.1352083966.1762345073",
+            "expires": "2026-11-05T12:17:53.000Z",
+            "domain": "github.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-05T12:17:54.397Z",
+            "lastAccessed": "2025-11-05T12:17:54.397Z",
+            "sameSite": "lax"
+          },
+          {
+            "key": "logged_in",
+            "value": "no",
+            "expires": "2026-11-05T12:17:53.000Z",
+            "domain": "github.com",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2025-11-05T12:17:54.397Z",
+            "lastAccessed": "2025-11-05T12:17:54.397Z",
+            "sameSite": "lax"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-05T13:07:53.146Z",
+      "createdAt": "2025-11-05T12:17:53.146Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_HPEjB3r3uW",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "_gh_sess",
+            "value": "%2BDq6wB96fOCEnaP%2BQQiQhwWpacBZ%2BMumhQEfwfsdcDeVQ2CYM%2FNRuDCK6xkQYwuxngjkf%2Bj56zDNu8sxELloS0bA5ZcWFtT34OrG0Bb5l9Uyv9F%2BODKod8psqZrGgia887TVAemDBA2bIEiXwaVhyvSbdy%2FxHTQkTS6yhd6tFe1admKDrDH5K1F7ytXw6NWWkwpV34UDPc72G3%2BXTVocmunph4n0PHIihsGYFVdnqlGUBv5V62hQKMJDxPyAf3h8urzW0tux6DTZiZJT0tQGNw%3D%3D--ebCNN8MmphmOg3l9--5WNWWAvk6Z6uJarkwWxhHQ%3D%3D",
+            "domain": "github.com",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2025-11-05T12:17:54.495Z",
+            "lastAccessed": "2025-11-05T12:17:54.495Z",
+            "sameSite": "lax"
+          },
+          {
+            "key": "_octo",
+            "value": "GH1.1.148422749.1762345073",
+            "expires": "2026-11-05T12:17:53.000Z",
+            "domain": "github.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-05T12:17:54.495Z",
+            "lastAccessed": "2025-11-05T12:17:54.495Z",
+            "sameSite": "lax"
+          },
+          {
+            "key": "logged_in",
+            "value": "no",
+            "expires": "2026-11-05T12:17:53.000Z",
+            "domain": "github.com",
+            "path": "/",
+            "secure": true,
+            "httpOnly": true,
+            "hostOnly": false,
+            "creation": "2025-11-05T12:17:54.495Z",
+            "lastAccessed": "2025-11-05T12:17:54.495Z",
+            "sameSite": "lax"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-05T13:07:53.150Z",
+      "createdAt": "2025-11-05T12:17:53.150Z",
+      "usageCount": 1,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    }
+  ]
+}

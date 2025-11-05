@@ -1,0 +1,9 @@
+{
+	"id": "TznvZLm0jl9gG9P",
+	"json": "{\"id\":\"TznvZLm0jl9gG9P\",\"url\":\"https://github.com/trending?since=monthly\",\"loadedUrl\":\"https://github.com/trending?since=monthly\",\"uniqueKey\":\"https://github.com/trending?since=monthly\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-11-05T12:17:54.499Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://github.com/trending?since=monthly",
+	"url": "https://github.com/trending?since=monthly"
+}
