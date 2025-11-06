@@ -1,0 +1,9 @@
+Infinite Scroll Scraper: Pick a site with lazy-loaded content and scrape all items using PlaywrightCrawler.
+
+Public API Scraper: Observe XHR/JSON calls and fetch structured data directly.
+
+Incremental Scraper: Scrape only new GitHub Trending repositories each day and store in a database.
+
+Language & Multi-Page Scraper: Extend GitHub Trending CSV script to scrape top repos per language and merge results.
+
+Error & Retry Simulation: Create a crawler for a site that randomly returns errors and make it robust with retries and logging.

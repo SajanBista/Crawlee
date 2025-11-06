@@ -226,3 +226,70 @@ Plan for credentials & secrets (secure storage).
 Schedule and monitor.
 
 Document and keep selector tests.
+
+
+
+
+
+
+Advanced Crawlee Techniques
+
+PlaywrightCrawler / PuppeteerCrawler: For scraping JavaScript-heavy sites with dynamic content (infinite scroll, React/Vue apps).
+
+Sessions & Cookies: Maintain login sessions or handle sticky sessions across multiple requests.
+
+AutoscaledPool & Concurrency Control: Efficiently handle thousands of requests without getting blocked.
+
+Error Handling & Retries: Learn exponential backoff, retry policies, and handling rate limits.
+
+Dataset vs KeyValueStore: For structured storage and managing state between crawls.
+
+2️⃣ Dealing with Dynamic Content
+
+Infinite scroll & lazy-loading pages: Detect XHR calls or scroll events and fetch new data automatically.
+
+XHR / JSON API observation: Learn to reverse-engineer API calls to fetch structured data instead of scraping HTML.
+
+GraphQL endpoints: Some sites use GraphQL; learn how to fetch data efficiently.
+
+Headless browser tricks: page.evaluate(), waiting for elements, DOM mutation observation.
+
+3️⃣ Data Handling & Storage
+
+Database integration: Store results in Postgres, MongoDB, or ElasticSearch.
+
+Data cleaning: Deduplication, normalizing fields, converting strings to numbers/dates.
+
+Export formats: CSV, JSON, JSONL, Excel, or direct database ingestion.
+
+Incremental crawling: Only fetch new or updated items since last crawl.
+
+4️⃣ Web Scraping Ethics & Safety
+
+Respect robots.txt & site TOS: Always check before scraping.
+
+Rate limiting: Avoid getting banned or blocked.
+
+Proxies: Residential vs datacenter, rotation strategies.
+
+CAPTCHAs & bot detection awareness: Understand, don’t bypass illegally.
+
+5️⃣ Scaling Your Crawls
+
+Parallelization: Split workloads efficiently across multiple actors or servers.
+
+Cloud deployment: Docker + cloud functions or services like Apify, AWS Lambda, or GCP Cloud Run.
+
+Monitoring & alerts: Track failed requests, log errors, monitor performance.
+
+6️⃣ Additional Skills to Learn
+
+Node.js Internals: Async programming, streams, buffers, error handling.
+
+HTTP fundamentals deep dive: Status codes, headers, cookies, redirects, caching.
+
+Regular Expressions: For extracting tricky patterns from HTML or text.
+
+Browser DevTools mastery: Network inspection, DOM inspection, request replay.
+
+Version control & CI/CD: Automate scraping jobs, schedule runs, and deploy updates safely.

@@ -1,0 +1,9 @@
+{
+	"id": "WzUkOD4fQ0lbUoR",
+	"json": "{\"id\":\"WzUkOD4fQ0lbUoR\",\"url\":\"https://en.numista.com/catalogue/index.php?r=&st=147&cat=y&im1=&im2=&ru=&ie=&ca=3&no=&v=&a=&dg=&i=&b=&m=&f=&t=&t2=&w=&mt=&u=&g=&p=1\",\"loadedUrl\":\"https://en.numista.com/challenge.php?redirect=%2Fcatalogue%2Findex.php%3Fr%3D%26st%3D147%26cat%3Dy%26im1%3D%26im2%3D%26ru%3D%26ie%3D%26ca%3D3%26no%3D%26v%3D%26a%3D%26dg%3D%26i%3D%26b%3D%26m%3D%26f%3D%26t%3D%26t2%3D%26w%3D%26mt%3D%26u%3D%26g%3D%26p%3D1\",\"uniqueKey\":\"https://en.numista.com/catalogue/index.php?a=&b=&ca=3&cat=y&dg=&f=&g=&i=&ie=&im1=&im2=&m=&mt=&no=&p=1&r=&ru=&st=147&t=&t2=&u=&v=&w=\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-11-05T16:11:03.067Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://en.numista.com/catalogue/index.php?a=&b=&ca=3&cat=y&dg=&f=&g=&i=&ie=&im1=&im2=&m=&mt=&no=&p=1&r=&ru=&st=147&t=&t2=&u=&v=&w=",
+	"url": "https://en.numista.com/catalogue/index.php?r=&st=147&cat=y&im1=&im2=&ru=&ie=&ca=3&no=&v=&a=&dg=&i=&b=&m=&f=&t=&t2=&w=&mt=&u=&g=&p=1"
+}
