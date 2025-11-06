@@ -1,0 +1,9 @@
+{
+	"id": "IlV8O17TWoRuSRQ",
+	"json": "{\"id\":\"IlV8O17TWoRuSRQ\",\"url\":\"https://en.numista.com/catalogue/index.php?r=/new7/&p=7&q=200\",\"loadedUrl\":\"https://en.numista.com/catalogue/index.php?r=/new7/&p=7&q=200\",\"uniqueKey\":\"https://en.numista.com/catalogue/index.php?p=7&q=200&r=%2Fnew7%2F\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-11-06T10:29:06.049Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://en.numista.com/catalogue/index.php?p=7&q=200&r=%2Fnew7%2F",
+	"url": "https://en.numista.com/catalogue/index.php?r=/new7/&p=7&q=200"
+}
