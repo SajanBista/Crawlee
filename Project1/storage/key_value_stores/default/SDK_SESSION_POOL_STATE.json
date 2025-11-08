@@ -1,9 +1,9 @@
 {
-  "usableSessionsCount": 4,
+  "usableSessionsCount": 1,
   "retiredSessionsCount": 0,
   "sessions": [
     {
-      "id": "session_44qBGaMbtf",
+      "id": "session_p6F78CcBSB",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -14,27 +14,27 @@
         "cookies": [
           {
             "key": "XSRF-TOKEN",
-            "value": "eyJpdiI6IkZEbXFROXE2WmVESVRLRUk4aXk5dmc9PSIsInZhbHVlIjoibXhoUjhaNnNXd1RVN0JMd2FYak13ckRGQnB2TFN2bGRka2F2ZVljSFNYc0ZLWG1QOVE3QzRIdCtHalp4bkxkQzJLSnBWUVppYVprRW9ta1ZBTDBoa2JSZ3NWYWVGdmhtSjV4Sy9SRWlWSitjWVJ0a2VKYWpaKysyTml1NFlrK20iLCJtYWMiOiJmYjIwM2EwOTM3MTAwZjFiZDJlODNkOWU0YjhiMTU3N2MxNmMzYjg4MGJiYzUzZjkwOWRkOGEzOTJjYTI5ZDlhIiwidGFnIjoiIn0%3D",
-            "expires": "2025-11-06T14:42:26.000Z",
+            "value": "eyJpdiI6IjNPazJ1a3JybUVSYitlZkx5bUJKZEE9PSIsInZhbHVlIjoiam9GdEpqWlJ3Rzkya2hEQVVwUlRsOEFMc2RXRXlETEt5K1Z0VmNPSVBhM3lvcEUyT1JWZzlGR283dmI4REVEVmU4RWRxZEt5SDJIODk3LzN4aXFWM20ycGkyN29HQ2tIYW9CMFlyeTZ0ZDJ6STF3R2ZFVkd3NjY3R1B4cTAxSDIiLCJtYWMiOiI4MGZkZDFkY2NmYjM5ODVhMzQxOWQxMmM0ODI5ZDExYzc2NTU0ZmI0MjYwOWFjM2IzNmVmMTQ0MWZlODVlOTk5IiwidGFnIjoiIn0%3D",
+            "expires": "2025-11-08T15:38:57.000Z",
             "maxAge": 7200,
             "domain": "smartdoko.com",
             "path": "/",
             "hostOnly": true,
-            "creation": "2025-11-06T12:43:29.718Z",
-            "lastAccessed": "2025-11-06T12:43:29.718Z",
+            "creation": "2025-11-08T13:38:58.394Z",
+            "lastAccessed": "2025-11-08T13:38:58.394Z",
             "sameSite": "lax"
           },
           {
             "key": "smartdoko_session",
-            "value": "eyJpdiI6Ik54S3dKNDVhdytFZ0JCOWplNXU3QXc9PSIsInZhbHVlIjoiSVRPeHBkblZONFoxUmlsTG5xeGpvbG4xdzJueW9VOC9OZ0UvUloxOStrTDA2K1NDeXJ6RlM1dy9SSEt0U3BKZFNuUjE2V0V2OThvTzM2bncvb3F2US93WUpvNjJwY2U3NU42R01lNzRYTlNiOGpCMHI2UStQamdxekVkQnFyVHUiLCJtYWMiOiJmMGM1NTdjOTk2YzJlOTg3ZTY1Nzc4Y2ZkNWI2MWQ1NzdjYWFkMWE4YmYyNGNhNDU0YWNlYjU1ODJiZTI3ZjIyIiwidGFnIjoiIn0%3D",
-            "expires": "2025-11-06T14:42:26.000Z",
+            "value": "eyJpdiI6Ii96T3JDalJoN1VrcHUzeWNEYkRWeGc9PSIsInZhbHVlIjoiajFGWEVZQysvenlBbFErNGpDUmpYUDVmUlVmYmYyT25zOUNVVU5BY0Z3dVVvSy9PMFVVZ3lNL081d1pXS3NoSTR4djBhaXljN2VvWVdsNU4yREV4NXhTWW82dDRsWkYwVEswMDBETko4UGpuOG1ndGxyeE5zMGZpd05PYVd0cWsiLCJtYWMiOiJmYWQ2MzBjZWI0YjBkNDNjOGU3MTE0MzczNDk1NjdmMDdiOWQ4Zjk3ZWJlZWU0Zjk0YTRhODczMTkyZTM3MDQ2IiwidGFnIjoiIn0%3D",
+            "expires": "2025-11-08T15:38:57.000Z",
             "maxAge": 7200,
             "domain": "smartdoko.com",
             "path": "/",
             "httpOnly": true,
             "hostOnly": true,
-            "creation": "2025-11-06T12:43:29.718Z",
-            "lastAccessed": "2025-11-06T12:43:29.718Z",
+            "creation": "2025-11-08T13:38:58.394Z",
+            "lastAccessed": "2025-11-08T13:38:58.394Z",
             "sameSite": "lax"
           }
         ]
@@ -42,149 +42,11 @@
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-11-06T13:33:28.922Z",
-      "createdAt": "2025-11-06T12:43:28.922Z",
+      "expiresAt": "2025-11-08T14:28:56.699Z",
+      "createdAt": "2025-11-08T13:38:56.699Z",
       "usageCount": 1,
       "maxUsageCount": 50,
-      "errorScore": 1
-    },
-    {
-      "id": "session_WnxprB1F3k",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": [
-          {
-            "key": "XSRF-TOKEN",
-            "value": "eyJpdiI6IkZEbXFROXE2WmVESVRLRUk4aXk5dmc9PSIsInZhbHVlIjoibXhoUjhaNnNXd1RVN0JMd2FYak13ckRGQnB2TFN2bGRka2F2ZVljSFNYc0ZLWG1QOVE3QzRIdCtHalp4bkxkQzJLSnBWUVppYVprRW9ta1ZBTDBoa2JSZ3NWYWVGdmhtSjV4Sy9SRWlWSitjWVJ0a2VKYWpaKysyTml1NFlrK20iLCJtYWMiOiJmYjIwM2EwOTM3MTAwZjFiZDJlODNkOWU0YjhiMTU3N2MxNmMzYjg4MGJiYzUzZjkwOWRkOGEzOTJjYTI5ZDlhIiwidGFnIjoiIn0%3D",
-            "expires": "2025-11-06T14:42:26.000Z",
-            "maxAge": 7200,
-            "domain": "smartdoko.com",
-            "path": "/",
-            "hostOnly": true,
-            "creation": "2025-11-06T12:43:29.864Z",
-            "lastAccessed": "2025-11-06T12:43:29.864Z",
-            "sameSite": "lax"
-          },
-          {
-            "key": "smartdoko_session",
-            "value": "eyJpdiI6Ik54S3dKNDVhdytFZ0JCOWplNXU3QXc9PSIsInZhbHVlIjoiSVRPeHBkblZONFoxUmlsTG5xeGpvbG4xdzJueW9VOC9OZ0UvUloxOStrTDA2K1NDeXJ6RlM1dy9SSEt0U3BKZFNuUjE2V0V2OThvTzM2bncvb3F2US93WUpvNjJwY2U3NU42R01lNzRYTlNiOGpCMHI2UStQamdxekVkQnFyVHUiLCJtYWMiOiJmMGM1NTdjOTk2YzJlOTg3ZTY1Nzc4Y2ZkNWI2MWQ1NzdjYWFkMWE4YmYyNGNhNDU0YWNlYjU1ODJiZTI3ZjIyIiwidGFnIjoiIn0%3D",
-            "expires": "2025-11-06T14:42:26.000Z",
-            "maxAge": 7200,
-            "domain": "smartdoko.com",
-            "path": "/",
-            "httpOnly": true,
-            "hostOnly": true,
-            "creation": "2025-11-06T12:43:29.864Z",
-            "lastAccessed": "2025-11-06T12:43:29.864Z",
-            "sameSite": "lax"
-          }
-        ]
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-11-06T13:33:29.723Z",
-      "createdAt": "2025-11-06T12:43:29.723Z",
-      "usageCount": 1,
-      "maxUsageCount": 50,
-      "errorScore": 1
-    },
-    {
-      "id": "session_tXvOAxJlgp",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": [
-          {
-            "key": "XSRF-TOKEN",
-            "value": "eyJpdiI6IkZEbXFROXE2WmVESVRLRUk4aXk5dmc9PSIsInZhbHVlIjoibXhoUjhaNnNXd1RVN0JMd2FYak13ckRGQnB2TFN2bGRka2F2ZVljSFNYc0ZLWG1QOVE3QzRIdCtHalp4bkxkQzJLSnBWUVppYVprRW9ta1ZBTDBoa2JSZ3NWYWVGdmhtSjV4Sy9SRWlWSitjWVJ0a2VKYWpaKysyTml1NFlrK20iLCJtYWMiOiJmYjIwM2EwOTM3MTAwZjFiZDJlODNkOWU0YjhiMTU3N2MxNmMzYjg4MGJiYzUzZjkwOWRkOGEzOTJjYTI5ZDlhIiwidGFnIjoiIn0%3D",
-            "expires": "2025-11-06T14:42:26.000Z",
-            "maxAge": 7200,
-            "domain": "smartdoko.com",
-            "path": "/",
-            "hostOnly": true,
-            "creation": "2025-11-06T12:43:29.986Z",
-            "lastAccessed": "2025-11-06T12:43:29.986Z",
-            "sameSite": "lax"
-          },
-          {
-            "key": "smartdoko_session",
-            "value": "eyJpdiI6Ik54S3dKNDVhdytFZ0JCOWplNXU3QXc9PSIsInZhbHVlIjoiSVRPeHBkblZONFoxUmlsTG5xeGpvbG4xdzJueW9VOC9OZ0UvUloxOStrTDA2K1NDeXJ6RlM1dy9SSEt0U3BKZFNuUjE2V0V2OThvTzM2bncvb3F2US93WUpvNjJwY2U3NU42R01lNzRYTlNiOGpCMHI2UStQamdxekVkQnFyVHUiLCJtYWMiOiJmMGM1NTdjOTk2YzJlOTg3ZTY1Nzc4Y2ZkNWI2MWQ1NzdjYWFkMWE4YmYyNGNhNDU0YWNlYjU1ODJiZTI3ZjIyIiwidGFnIjoiIn0%3D",
-            "expires": "2025-11-06T14:42:26.000Z",
-            "maxAge": 7200,
-            "domain": "smartdoko.com",
-            "path": "/",
-            "httpOnly": true,
-            "hostOnly": true,
-            "creation": "2025-11-06T12:43:29.986Z",
-            "lastAccessed": "2025-11-06T12:43:29.986Z",
-            "sameSite": "lax"
-          }
-        ]
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-11-06T13:33:29.871Z",
-      "createdAt": "2025-11-06T12:43:29.871Z",
-      "usageCount": 1,
-      "maxUsageCount": 50,
-      "errorScore": 1
-    },
-    {
-      "id": "session_zZc6ZrgtIe",
-      "cookieJar": {
-        "version": "tough-cookie@6.0.0",
-        "storeType": "MemoryCookieStore",
-        "rejectPublicSuffixes": true,
-        "enableLooseMode": false,
-        "allowSpecialUseDomain": true,
-        "prefixSecurity": "silent",
-        "cookies": [
-          {
-            "key": "XSRF-TOKEN",
-            "value": "eyJpdiI6IkZEbXFROXE2WmVESVRLRUk4aXk5dmc9PSIsInZhbHVlIjoibXhoUjhaNnNXd1RVN0JMd2FYak13ckRGQnB2TFN2bGRka2F2ZVljSFNYc0ZLWG1QOVE3QzRIdCtHalp4bkxkQzJLSnBWUVppYVprRW9ta1ZBTDBoa2JSZ3NWYWVGdmhtSjV4Sy9SRWlWSitjWVJ0a2VKYWpaKysyTml1NFlrK20iLCJtYWMiOiJmYjIwM2EwOTM3MTAwZjFiZDJlODNkOWU0YjhiMTU3N2MxNmMzYjg4MGJiYzUzZjkwOWRkOGEzOTJjYTI5ZDlhIiwidGFnIjoiIn0%3D",
-            "expires": "2025-11-06T14:42:26.000Z",
-            "maxAge": 7200,
-            "domain": "smartdoko.com",
-            "path": "/",
-            "hostOnly": true,
-            "creation": "2025-11-06T12:43:30.116Z",
-            "lastAccessed": "2025-11-06T12:43:30.116Z",
-            "sameSite": "lax"
-          },
-          {
-            "key": "smartdoko_session",
-            "value": "eyJpdiI6Ik54S3dKNDVhdytFZ0JCOWplNXU3QXc9PSIsInZhbHVlIjoiSVRPeHBkblZONFoxUmlsTG5xeGpvbG4xdzJueW9VOC9OZ0UvUloxOStrTDA2K1NDeXJ6RlM1dy9SSEt0U3BKZFNuUjE2V0V2OThvTzM2bncvb3F2US93WUpvNjJwY2U3NU42R01lNzRYTlNiOGpCMHI2UStQamdxekVkQnFyVHUiLCJtYWMiOiJmMGM1NTdjOTk2YzJlOTg3ZTY1Nzc4Y2ZkNWI2MWQ1NzdjYWFkMWE4YmYyNGNhNDU0YWNlYjU1ODJiZTI3ZjIyIiwidGFnIjoiIn0%3D",
-            "expires": "2025-11-06T14:42:26.000Z",
-            "maxAge": 7200,
-            "domain": "smartdoko.com",
-            "path": "/",
-            "httpOnly": true,
-            "hostOnly": true,
-            "creation": "2025-11-06T12:43:30.116Z",
-            "lastAccessed": "2025-11-06T12:43:30.116Z",
-            "sameSite": "lax"
-          }
-        ]
-      },
-      "userData": {},
-      "maxErrorScore": 3,
-      "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-11-06T13:33:29.989Z",
-      "createdAt": "2025-11-06T12:43:29.989Z",
-      "usageCount": 1,
-      "maxUsageCount": 50,
-      "errorScore": 1
+      "errorScore": 0
     }
   ]
 }
