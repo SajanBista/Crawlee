@@ -1,9 +1,29 @@
 {
-  "usableSessionsCount": 1,
+  "usableSessionsCount": 18,
   "retiredSessionsCount": 0,
   "sessions": [
     {
-      "id": "session_p6F78CcBSB",
+      "id": "session_AHX4XNSKb5",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:28.650Z",
+      "createdAt": "2025-11-08T13:55:28.650Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_Cw9WvqS8VS",
       "cookieJar": {
         "version": "tough-cookie@6.0.0",
         "storeType": "MemoryCookieStore",
@@ -13,38 +33,424 @@
         "prefixSecurity": "silent",
         "cookies": [
           {
+            "key": "_gcl_au",
+            "value": "1.1.992380803.1762610131",
+            "expires": "2026-02-06T13:55:31.000Z",
+            "domain": "smartdoko.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-08T13:55:34.241Z",
+            "lastAccessed": "2025-11-08T13:56:04.278Z"
+          },
+          {
+            "key": "_gid",
+            "value": "GA1.2.1113378878.1762610132",
+            "expires": "2025-11-09T13:56:03.000Z",
+            "domain": "smartdoko.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-08T13:55:34.241Z",
+            "lastAccessed": "2025-11-08T13:56:04.278Z"
+          },
+          {
+            "key": "_gat_gtag_UA_107687012_1",
+            "value": "1",
+            "expires": "2025-11-08T13:56:31.000Z",
+            "domain": "smartdoko.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-08T13:55:34.241Z",
+            "lastAccessed": "2025-11-08T13:56:04.278Z"
+          },
+          {
+            "key": "_ga",
+            "value": "GA1.1.378004892.1762610132",
+            "expires": "2026-12-13T13:56:03.970Z",
+            "domain": "smartdoko.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-08T13:55:34.242Z",
+            "lastAccessed": "2025-11-08T13:56:04.278Z"
+          },
+          {
+            "key": "_ga_HT0NMD1DJ4",
+            "value": "GS2.1.s1762610131$o1$g1$t1762610163$j28$l0$h1488517166",
+            "expires": "2026-12-13T13:56:03.973Z",
+            "domain": "smartdoko.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-08T13:55:34.242Z",
+            "lastAccessed": "2025-11-08T13:56:04.278Z"
+          },
+          {
             "key": "XSRF-TOKEN",
-            "value": "eyJpdiI6IjNPazJ1a3JybUVSYitlZkx5bUJKZEE9PSIsInZhbHVlIjoiam9GdEpqWlJ3Rzkya2hEQVVwUlRsOEFMc2RXRXlETEt5K1Z0VmNPSVBhM3lvcEUyT1JWZzlGR283dmI4REVEVmU4RWRxZEt5SDJIODk3LzN4aXFWM20ycGkyN29HQ2tIYW9CMFlyeTZ0ZDJ6STF3R2ZFVkd3NjY3R1B4cTAxSDIiLCJtYWMiOiI4MGZkZDFkY2NmYjM5ODVhMzQxOWQxMmM0ODI5ZDExYzc2NTU0ZmI0MjYwOWFjM2IzNmVmMTQ0MWZlODVlOTk5IiwidGFnIjoiIn0%3D",
-            "expires": "2025-11-08T15:38:57.000Z",
-            "maxAge": 7200,
+            "value": "eyJpdiI6Ik5sZUxuTm15OEZBK3BRZnFNTCtYbWc9PSIsInZhbHVlIjoibmtvbGFrcHNVQ3J2bWJPSC9SNXJWT1pQTHhINnVSL1Bxb0t5RnhKYm1WOElDYVk4ZFhKT1IxQytGRWhUU1V0aW51S09KblBITTZFd24rcENhTjN2SXNQYTF6QjZyc1lUM2g4WGM2K1FlTThSN3phSjFRTm1HdytzN1ZoRHBaY0kiLCJtYWMiOiIyZTdjMTlhOTAwMmExNzgzM2UwMGM4NzI4NzE2OThmYzNjNzllMDNhMzNiYTRjMTE4YzdkZjhiYzllZTQ5OGU0IiwidGFnIjoiIn0%3D",
+            "expires": "2025-11-08T15:56:04.085Z",
             "domain": "smartdoko.com",
             "path": "/",
             "hostOnly": true,
-            "creation": "2025-11-08T13:38:58.394Z",
-            "lastAccessed": "2025-11-08T13:38:58.394Z",
-            "sameSite": "lax"
+            "creation": "2025-11-08T13:55:34.242Z",
+            "lastAccessed": "2025-11-08T13:56:04.278Z"
           },
           {
             "key": "smartdoko_session",
-            "value": "eyJpdiI6Ii96T3JDalJoN1VrcHUzeWNEYkRWeGc9PSIsInZhbHVlIjoiajFGWEVZQysvenlBbFErNGpDUmpYUDVmUlVmYmYyT25zOUNVVU5BY0Z3dVVvSy9PMFVVZ3lNL081d1pXS3NoSTR4djBhaXljN2VvWVdsNU4yREV4NXhTWW82dDRsWkYwVEswMDBETko4UGpuOG1ndGxyeE5zMGZpd05PYVd0cWsiLCJtYWMiOiJmYWQ2MzBjZWI0YjBkNDNjOGU3MTE0MzczNDk1NjdmMDdiOWQ4Zjk3ZWJlZWU0Zjk0YTRhODczMTkyZTM3MDQ2IiwidGFnIjoiIn0%3D",
-            "expires": "2025-11-08T15:38:57.000Z",
-            "maxAge": 7200,
+            "value": "eyJpdiI6ImlqRW5kc0htc0hYbnp6V3B0bThVN1E9PSIsInZhbHVlIjoiZTdMTkl1NlB0OVUxQzNwbXYvSmJFTnpzMHJXYzR4MllVL2dnMEVSdWg0UnhZWFZqTU9YNFZGMEhlOVFxcHI5QUVYQmlOcXhMRmtXWWRaR1gwSE8xRThEL2RuVkVaRzFGbWQ3TXFlU1RyZmkxZXE3aTNGVVF2TWVJOUZMWXB6S3EiLCJtYWMiOiJiZWQ1ZTg4YWRjMDRiNjYwNGY1MjkyMWZhZWRkMTgyNmMwMDcwNzM4MTAxZjliNDc2ZTAxY2U4OTJjNTg4MTAzIiwidGFnIjoiIn0%3D",
+            "expires": "2025-11-08T15:56:04.085Z",
             "domain": "smartdoko.com",
             "path": "/",
             "httpOnly": true,
             "hostOnly": true,
-            "creation": "2025-11-08T13:38:58.394Z",
-            "lastAccessed": "2025-11-08T13:38:58.394Z",
-            "sameSite": "lax"
+            "creation": "2025-11-08T13:55:34.242Z",
+            "lastAccessed": "2025-11-08T13:56:04.278Z"
+          },
+          {
+            "key": "_fbp",
+            "value": "fb.1.1762610133889.698605893359136815",
+            "expires": "2026-02-06T13:56:03.000Z",
+            "domain": "smartdoko.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-08T13:55:34.242Z",
+            "lastAccessed": "2025-11-08T13:56:04.278Z"
+          },
+          {
+            "key": "_gcl_au",
+            "value": "1.2-4.992380803.1762610131",
+            "expires": "2026-02-06T13:55:31.000Z",
+            "domain": "smartdoko.com",
+            "path": "/product",
+            "hostOnly": false,
+            "creation": "2025-11-08T13:55:40.864Z",
+            "lastAccessed": "2025-11-08T13:56:04.278Z"
           }
         ]
       },
       "userData": {},
       "maxErrorScore": 3,
       "errorScoreDecrement": 0.5,
-      "expiresAt": "2025-11-08T14:28:56.699Z",
-      "createdAt": "2025-11-08T13:38:56.699Z",
-      "usageCount": 1,
+      "expiresAt": "2025-11-08T14:45:28.651Z",
+      "createdAt": "2025-11-08T13:55:28.651Z",
+      "usageCount": 17,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_jcQ1PqVfOx",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:36.381Z",
+      "createdAt": "2025-11-08T13:55:36.381Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_ScTc2Rxhk4",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:36.382Z",
+      "createdAt": "2025-11-08T13:55:36.382Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_amsp6W7y2N",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:38.872Z",
+      "createdAt": "2025-11-08T13:55:38.872Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_e3IwDoCVPu",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:42.940Z",
+      "createdAt": "2025-11-08T13:55:42.940Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_ekj57ltHn2",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:42.992Z",
+      "createdAt": "2025-11-08T13:55:42.992Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_AchoMWCkPx",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:44.787Z",
+      "createdAt": "2025-11-08T13:55:44.787Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_QCHDFcj6xc",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:48.771Z",
+      "createdAt": "2025-11-08T13:55:48.771Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_h2fBGHdyTT",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:49.372Z",
+      "createdAt": "2025-11-08T13:55:49.372Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_KyIsjBf4xw",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:49.373Z",
+      "createdAt": "2025-11-08T13:55:49.373Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_gH2lASCrDt",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:50.583Z",
+      "createdAt": "2025-11-08T13:55:50.583Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_eVteU7Fcle",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:54.828Z",
+      "createdAt": "2025-11-08T13:55:54.828Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_fdfz9MVGfb",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:55.373Z",
+      "createdAt": "2025-11-08T13:55:55.373Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_fakqeeuHLd",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:55.489Z",
+      "createdAt": "2025-11-08T13:55:55.489Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_Rx4dlhDK4l",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:56.453Z",
+      "createdAt": "2025-11-08T13:55:56.453Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_4pjtomdos2",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:45:58.837Z",
+      "createdAt": "2025-11-08T13:55:58.837Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_M2vvI7DRfp",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-08T14:46:00.597Z",
+      "createdAt": "2025-11-08T13:56:00.597Z",
+      "usageCount": 0,
       "maxUsageCount": 50,
       "errorScore": 0
     }

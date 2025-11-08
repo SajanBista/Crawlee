@@ -1,34 +1,46 @@
-//import { CheerioCrawler, Dataset, KeyValueStore} from 'crawlee';
-import { PlaywrightCrawler, Dataset, KeyValueStore } from 'crawlee';
+import { PlaywrightCrawler, Dataset } from 'crawlee';
 import fs from 'fs';
+import cheerio from 'cheerio';
 
 class SmartDokoScraper {
     constructor() {
+        this.results = []; // store results
+
         this.crawler = new PlaywrightCrawler({
-    maxRequestsPerCrawl: 1000,
-    maxConcurrency: 5,
-    requestHandlerTimeoutSecs: 60,
-    headless: true,
+            maxRequestsPerCrawl: 1000,
+            maxConcurrency: 5,
+            requestHandlerTimeoutSecs: 60,
+            headless: true,
 
-    requestHandler: async ({ request, page, log }) => {
-        const url = request.url;
-        await page.waitForLoadState('domcontentloaded');
+            requestHandler: async ({ request, page, log }) => {
+                const url = request.url;
+                await page.waitForLoadState('domcontentloaded');
 
-        const content = await page.content();
-        const $ = cheerio.load(content);
+                // Scroll to load lazy-loaded products
+                const scrollDelay = 1000;
+                const maxScrolls = 10;
+                for (let i = 0; i < maxScrolls; i++) {
+                    const previousHeight = await page.evaluate('document.body.scrollHeight');
+                    await page.evaluate('window.scrollTo(0, document.body.scrollHeight)');
+                    await page.waitForTimeout(scrollDelay);
+                    const newHeight = await page.evaluate('document.body.scrollHeight');
+                    if (newHeight === previousHeight) break;
+                }
 
-        if (url.includes('/category/')) {
-            await this.handleCategoryPage({ request, $, log });
-        } else if (this.isProductUrl(url)) {
-            await this.handleProductPage({ request, $, log });
-        }
-    },
+                const content = await page.content();
+                const $ = cheerio.load(content);
 
-    failedRequestHandler: ({ request, log }) => {
-        log.error(`Request failed: ${request.url}`);
-    },
-});
+                if (url.includes('/category/')) {
+                    await this.handleCategoryPage({ request, $, log });
+                } else if (this.isProductUrl(url)) {
+                    await this.handleProductPage({ request, $, log });
+                }
+            },
 
+            failedRequestHandler: ({ request, log }) => {
+                log.error(`Request failed: ${request.url}`);
+            },
+        });
     }
 
     isProductUrl(url) {
@@ -38,30 +50,22 @@ class SmartDokoScraper {
     async handleCategoryPage({ request, $, log }) {
         log.info(`Processing category page: ${request.url}`);
 
-        // Extract product links
         const productLinks = [];
         $('a[href*="/product/"], a[href*="/product-"], a[href*="/compare/"]').each((i, el) => {
-  const href = $(el).attr('href');
-  if (href && !href.startsWith('#')) {
-    const fullUrl = new URL(href, request.loadedUrl).href;
-    productLinks.push(fullUrl);
-  }
-});
+            const href = $(el).attr('href');
+            if (href && !href.startsWith('#')) {
+                const fullUrl = new URL(href, request.loadedUrl).href;
+                productLinks.push(fullUrl);
+            }
+        });
 
-        // Remove duplicates
         const uniqueLinks = [...new Set(productLinks)];
         log.info(`Found ${uniqueLinks.length} product links`);
-
-        // Add product URLs to queue
         await this.crawler.addRequests(uniqueLinks);
 
-        // Handle pagination
         const nextPageUrl = this.extractNextPageUrl($, request.loadedUrl);
-        if (nextPageUrl) {
-            await this.crawler.addRequests([nextPageUrl]);
-        }
+        if (nextPageUrl) await this.crawler.addRequests([nextPageUrl]);
 
-        // Save category info
         const categoryInfo = {
             url: request.url,
             title: $('h1, .page-title, .category-title').first().text().trim(),
@@ -69,6 +73,7 @@ class SmartDokoScraper {
             scrapedAt: new Date().toISOString(),
         };
 
+        this.results.push(categoryInfo);
         await Dataset.pushData(categoryInfo);
     }
 
@@ -77,48 +82,22 @@ class SmartDokoScraper {
 
         const productData = {
             url: request.url,
-            title: this.extractText($, '#main-content > div:nth-child(2) > div > div > div.product-box > div:nth-child(1) > h4 > a'),
-            price: this.extractText($, '#main-content > div:nth-child(2) > div > div > div.product-box > div:nth-child(1) > div.rating-block.d-flex.justify-content-between.flex-wrap.gap-2 > div.left > div.price > span.price-new'),
-            originalPrice: this.extractText($, '#main-content > div:nth-child(2) > div > div > div.product-box > div:nth-child(1) > div.rating-block.d-flex.justify-content-between.flex-wrap.gap-2 > div.left > div.price > span.price-old'),
-            images: this.extractImages($),
+            title: this.extractText($, 'h1, .product-title, .name'),
+            price: this.extractText($, '.price, .price-new, [class*="price"]'),
+            originalPrice: this.extractText($, '.price-old, .old-price, [class*="price-old"]'),
             category: 'TV & Home Appliances',
             scrapedAt: new Date().toISOString(),
         };
 
         this.cleanProductData(productData);
-
+        this.results.push(productData);
         await Dataset.pushData(productData);
-        log.info(`Saved product: ${productData.title}`);
+
+        log.info(`✅ Saved product: ${productData.title}`);
     }
 
     extractText($, selector) {
         return $(selector).first().text().trim().replace(/\s+/g, ' ');
-    }
-
-    extractSpecifications($) {
-        const specs = {};
-        $('table tr, .specification li, .feature li').each((i, element) => {
-            const $row = $(element);
-            const key = $row.find('td:first-child, th:first-child, .key, .label').text().trim();
-            const value = $row.find('td:last-child, .value').text().trim();
-
-            if (key && value) {
-                specs[key.replace(/[:：]/g, '')] = value;
-            }
-        });
-        return specs;
-    }
-
-    extractImages($) {
-        const images = [];
-        $('img[src*="product"], .product-image img, .gallery img').each((i, element) => {
-            const src = $(element).attr('src');
-            const alt = $(element).attr('alt');
-            if (src && !src.includes('logo') && !src.includes('icon')) {
-                images.push({ url: src, alt: alt || '' });
-            }
-        });
-        return images;
     }
 
     extractNextPageUrl($, baseUrl) {
@@ -141,7 +120,12 @@ class SmartDokoScraper {
 
         await this.crawler.run(startUrls);
 
-        // Export results
+        // Save to JSON file
+        const filePath = './smartDoko.json';
+        fs.writeFileSync(filePath, JSON.stringify(this.results, null, 2));
+        console.log(`💾 Results saved to ${filePath}`);
+
+        // Optional: export Crawlee dataset
         const dataset = await Dataset.open();
         await dataset.exportToJSON('products');
         await dataset.exportToCSV('products');
