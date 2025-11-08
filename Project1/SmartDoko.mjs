@@ -4,29 +4,41 @@ import cheerio from 'cheerio';
 
 class SmartDokoScraper {
     constructor() {
-        this.results = []; // store results
+        this.results = [];
 
         this.crawler = new PlaywrightCrawler({
             maxRequestsPerCrawl: 1000,
             maxConcurrency: 5,
-            requestHandlerTimeoutSecs: 60,
+            requestHandlerTimeoutSecs: 300, // increased timeout
             headless: true,
 
             requestHandler: async ({ request, page, log }) => {
                 const url = request.url;
                 await page.waitForLoadState('domcontentloaded');
 
-                // Scroll to load lazy-loaded products
-                const scrollDelay = 1000;
-                const maxScrolls = 10;
-                for (let i = 0; i < maxScrolls; i++) {
-                    const previousHeight = await page.evaluate('document.body.scrollHeight');
-                    await page.evaluate('window.scrollTo(0, document.body.scrollHeight)');
-                    await page.waitForTimeout(scrollDelay);
-                    const newHeight = await page.evaluate('document.body.scrollHeight');
-                    if (newHeight === previousHeight) break;
+                // Optional scroll to trigger lazy loading
+                await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight / 2));
+                await page.waitForTimeout(1000);
+
+                // Click all "More" links safely
+                const maxMoreClicks = 20; // safety limit
+                let clicks = 0;
+                let moreLink = await page.$('div.more-btn a.view-all');
+
+                while (moreLink && clicks < maxMoreClicks) {
+                    try {
+                        await moreLink.click();
+                        log.info('Clicked "More" link');
+                        await page.waitForTimeout(2000); // wait for new products
+                        clicks++;
+                    } catch (err) {
+                        log.warn('Failed to click "More", stopping');
+                        break;
+                    }
+                    moreLink = await page.$('div.more-btn a.view-all');
                 }
 
+                // Get final HTML after loading all products
                 const content = await page.content();
                 const $ = cheerio.load(content);
 
@@ -63,9 +75,6 @@ class SmartDokoScraper {
         log.info(`Found ${uniqueLinks.length} product links`);
         await this.crawler.addRequests(uniqueLinks);
 
-        const nextPageUrl = this.extractNextPageUrl($, request.loadedUrl);
-        if (nextPageUrl) await this.crawler.addRequests([nextPageUrl]);
-
         const categoryInfo = {
             url: request.url,
             title: $('h1, .page-title, .category-title').first().text().trim(),
@@ -100,11 +109,6 @@ class SmartDokoScraper {
         return $(selector).first().text().trim().replace(/\s+/g, ' ');
     }
 
-    extractNextPageUrl($, baseUrl) {
-        const nextLink = $('a.next, a[rel="next"], .pagination a:contains("Next")').attr('href');
-        return nextLink ? new URL(nextLink, baseUrl).href : null;
-    }
-
     cleanProductData(product) {
         Object.keys(product).forEach(key => {
             if (typeof product[key] === 'string') {
@@ -120,12 +124,12 @@ class SmartDokoScraper {
 
         await this.crawler.run(startUrls);
 
-        // Save to JSON file
+        // Save results to JSON
         const filePath = './smartDoko.json';
         fs.writeFileSync(filePath, JSON.stringify(this.results, null, 2));
         console.log(`💾 Results saved to ${filePath}`);
 
-        // Optional: export Crawlee dataset
+        // Export Crawlee dataset
         const dataset = await Dataset.open();
         await dataset.exportToJSON('products');
         await dataset.exportToCSV('products');

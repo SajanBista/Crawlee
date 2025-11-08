@@ -1,29 +1,40 @@
 {
-  "requestsFinished": 17,
+  "requestsFinished": 337,
   "requestsFailed": 0,
-  "requestsRetries": 0,
+  "requestsRetries": 1,
   "requestsFailedPerMinute": 0,
-  "requestsFinishedPerMinute": 27,
-  "requestMinDurationMillis": 5748,
-  "requestMaxDurationMillis": 7713,
+  "requestsFinishedPerMinute": 16,
+  "requestMinDurationMillis": 8407,
+  "requestMaxDurationMillis": 47758,
   "requestTotalFailedDurationMillis": 0,
-  "requestTotalFinishedDurationMillis": 104707,
-  "crawlerStartedAt": "2025-11-08T13:55:28.622Z",
-  "crawlerFinishedAt": "2025-11-08T13:56:06.410Z",
-  "statsPersistedAt": "2025-11-08T13:56:06.410Z",
-  "crawlerRuntimeMillis": 37898,
-  "crawlerLastStartTimestamp": 1762610128512,
+  "requestTotalFinishedDurationMillis": 4325766,
+  "crawlerStartedAt": "2025-11-08T14:18:33.126Z",
+  "crawlerFinishedAt": "2025-11-08T14:40:08.842Z",
+  "statsPersistedAt": "2025-11-08T14:40:08.842Z",
+  "crawlerRuntimeMillis": 1295825,
+  "crawlerLastStartTimestamp": 1762611513017,
   "requestRetryHistogram": [
-    17
+    336,
+    1
   ],
   "statsId": 0,
   "requestAvgFailedDurationMillis": null,
-  "requestAvgFinishedDurationMillis": 6159,
-  "requestTotalDurationMillis": 104707,
-  "requestsTotal": 17,
+  "requestAvgFinishedDurationMillis": 12836,
+  "requestTotalDurationMillis": 4325766,
+  "requestsTotal": 337,
   "requestsWithStatusCode": {
-    "200": 17
+    "200": 338
   },
   "errors": {},
-  "retryErrors": {}
+  "retryErrors": {
+    "file:///Users/sajanbista/Desktop/Scraping/Crawlee/Project1/SmartDoko.mjs:35:29": {
+      "missing error code": {
+        "TypeError": {
+          "log.warn is not a function": {
+            "count": 1
+          }
+        }
+      }
+    }
+  }
 }

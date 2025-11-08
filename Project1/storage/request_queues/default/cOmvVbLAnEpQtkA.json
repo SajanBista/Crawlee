@@ -1,0 +1,9 @@
+{
+	"id": "cOmvVbLAnEpQtkA",
+	"json": "{\"id\":\"cOmvVbLAnEpQtkA\",\"url\":\"https://smartdoko.com/product/videocon-8-kg-inverter-front-loading-washing-machine-fully-automatic\",\"loadedUrl\":\"https://smartdoko.com/product/videocon-8-kg-inverter-front-loading-washing-machine-fully-automatic\",\"uniqueKey\":\"https://smartdoko.com/product/videocon-8-kg-inverter-front-loading-washing-machine-fully-automatic\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"TypeError: log.warn is not a function\\n    at PlaywrightCrawler.requestHandler [as userProvidedRequestHandler] (file:///Users/sajanbista/Desktop/Scraping/Crawlee/Project1/SmartDoko.mjs:35:29)\\n    at runNextTicks (node:internal/process/task_queues:65:5)\\n    at process.processImmediate (node:internal/timers:453:9)\\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)\\n    at async wrap (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@apify/timeout/cjs/index.cjs:54:21)\"],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-11-08T14:24:00.471Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 1,
+	"uniqueKey": "https://smartdoko.com/product/videocon-8-kg-inverter-front-loading-washing-machine-fully-automatic",
+	"url": "https://smartdoko.com/product/videocon-8-kg-inverter-front-loading-washing-machine-fully-automatic"
+}
