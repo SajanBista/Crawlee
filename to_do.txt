@@ -293,3 +293,10 @@ Regular Expressions: For extracting tricky patterns from HTML or text.
 Browser DevTools mastery: Network inspection, DOM inspection, request replay.
 
 Version control & CI/CD: Automate scraping jobs, schedule runs, and deploy updates safely.
+
+
+
+
+
+IP rotation and CAPTCHA handling.
+

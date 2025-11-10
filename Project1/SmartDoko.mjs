@@ -8,9 +8,22 @@ class SmartDokoScraper {
 
         this.crawler = new PlaywrightCrawler({
             maxRequestsPerCrawl: 1000,
-            maxConcurrency: 5,
+            maxConcurrency: 2,
             requestHandlerTimeoutSecs: 300, // increased timeout
+            
             headless: true,
+                launchContext: {
+        prePageCreateHooks: [
+            async ({ page }) => {
+                if (fs.existsSync('cookies.json')) {
+                    const cookies = JSON.parse(fs.readFileSync('cookies.json', 'utf-8'));
+                    await page.context().addCookies(cookies);
+                    console.log(' Loaded cookies into context');
+                }
+            },
+        ],
+    },
+
 
             requestHandler: async ({ request, page, log }) => {
                 const url = request.url;
@@ -134,7 +147,7 @@ class SmartDokoScraper {
         await dataset.exportToJSON('products');
         await dataset.exportToCSV('products');
 
-        console.log('✅ Scraping completed successfully!');
+        console.log(' Scraping completed successfully!');
     }
 }
 

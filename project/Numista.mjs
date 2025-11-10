@@ -25,7 +25,7 @@ for (let id = startId; id < endId; id++) {
 
 await crawler.run(startUrls);
 
-
+ 
 // After crawler finishes, export the dataset to a single JSON file
 const data = await Dataset.getData();
 fs.writeFileSync('numista_data.json', JSON.stringify(data.items, null, 2));

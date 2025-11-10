@@ -1,12 +1,45 @@
 [
   {
-    "noteName": "Æ26 - Caracalla (ΓΑΒΑΛΕΩ)                    \n                                         (198-217)",
+    "noteName": "Bullion - 1 gram Bar (Gold Kinen)                    \n                    ND",
     "imageUrls": {
       "avers": [
-        "https://en.numista.com/catalogue/no-obverse-coin-en.png"
+        "https://en.numista.com/catalogue/photos/bangladesh/68f44aabf0f3a9.36199081-180.jpg"
       ],
       "revers": [
-        "https://en.numista.com/catalogue/no-reverse-coin-en.png"
+        "https://en.numista.com/catalogue/photos/bangladesh/68f44aac6745d5.71848579-180.jpg"
+      ]
+    }
+  },
+  {
+    "noteName": "1 Dollar - Charles III (1st Portrait - Merry Christmas 2025)                    \n                    2025",
+    "imageUrls": {
+      "avers": [
+        "https://en.numista.com/catalogue/photos/australie/69099feb667256.39321992-180.jpg"
+      ],
+      "revers": [
+        "https://en.numista.com/catalogue/photos/australie/69099feca1cb24.09905976-180.jpg"
+      ]
+    }
+  },
+  {
+    "noteName": "1oz copper bar - Geiger Edelmetalle (Schloss Güldengossa)                    \n                    ND",
+    "imageUrls": {
+      "avers": [
+        "https://en.numista.com/catalogue/photos/allemagne/6908bd310e2933.59937847-180.jpg"
+      ],
+      "revers": [
+        "https://en.numista.com/catalogue/photos/allemagne/6908bd327b76d2.73273670-180.jpg"
+      ]
+    }
+  },
+  {
+    "noteName": "Dinar - Kawad I (facing - 2nd reign)                    \n                    25                     (513)",
+    "imageUrls": {
+      "avers": [
+        "https://en.numista.com/catalogue/photos/sasanian_empire/690b08e96dbc58.88191394-180.jpg"
+      ],
+      "revers": [
+        "https://en.numista.com/catalogue/photos/sasanian_empire/690b08e980e3c6.82335386-180.jpg"
       ]
     }
   }
