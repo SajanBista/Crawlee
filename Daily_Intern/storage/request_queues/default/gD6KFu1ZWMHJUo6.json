@@ -1,0 +1,9 @@
+{
+	"id": "gD6KFu1ZWMHJUo6",
+	"json": "{\"id\":\"gD6KFu1ZWMHJUo6\",\"url\":\"https://www.rottentomatoes.com/m/game_night_2018\",\"uniqueKey\":\"https://www.rottentomatoes.com/m/game_night_2018\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"movie\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1763041611834,
+	"retryCount": 0,
+	"uniqueKey": "https://www.rottentomatoes.com/m/game_night_2018",
+	"url": "https://www.rottentomatoes.com/m/game_night_2018"
+}

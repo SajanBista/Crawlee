@@ -1,0 +1,49 @@
+{
+  "requestsFinished": 1,
+  "requestsFailed": 0,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 0,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": 23419,
+  "requestMaxDurationMillis": 23419,
+  "requestTotalFailedDurationMillis": 0,
+  "requestTotalFinishedDurationMillis": 23419,
+  "crawlerStartedAt": "2025-11-13T13:39:10.171Z",
+  "crawlerFinishedAt": null,
+  "statsPersistedAt": "2025-11-13T13:43:10.185Z",
+  "crawlerRuntimeMillis": 240125,
+  "crawlerLastStartTimestamp": 1763041150060,
+  "requestRetryHistogram": [
+    null,
+    1
+  ],
+  "statsId": 0,
+  "requestAvgFailedDurationMillis": null,
+  "requestAvgFinishedDurationMillis": 23419,
+  "requestTotalDurationMillis": 23419,
+  "requestsTotal": 1,
+  "requestsWithStatusCode": {
+    "200": 6
+  },
+  "errors": {},
+  "retryErrors": {
+    "/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/core/crawlers/crawler_utils.js:13:11": {
+      "missing error code": {
+        "Error": {
+          "Navigation timed out after 60 seconds.": {
+            "count": 4
+          }
+        }
+      }
+    },
+    "/Users/sajanbista/Desktop/Scraping/Crawlee/Daily_Intern/1page.mjs:96:48": {
+      "missing error code": {
+        "Error": {
+          "page.$eval: Failed to find element matching selector \"img.posterImage\"": {
+            "count": 4
+          }
+        }
+      }
+    }
+  }
+}

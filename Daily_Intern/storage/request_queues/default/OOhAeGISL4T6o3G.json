@@ -1,0 +1,9 @@
+{
+	"id": "OOhAeGISL4T6o3G",
+	"json": "{\"id\":\"OOhAeGISL4T6o3G\",\"url\":\"https://www.rottentomatoes.com/m/sisu_2022\",\"uniqueKey\":\"https://www.rottentomatoes.com/m/sisu_2022\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"movie\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1763041611834,
+	"retryCount": 0,
+	"uniqueKey": "https://www.rottentomatoes.com/m/sisu_2022",
+	"url": "https://www.rottentomatoes.com/m/sisu_2022"
+}

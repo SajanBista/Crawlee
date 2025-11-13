@@ -1,0 +1,9 @@
+{
+	"id": "t7FXb4VQKmDg3Q8",
+	"json": "{\"id\":\"t7FXb4VQKmDg3Q8\",\"url\":\"https://www.rottentomatoes.com/m/the_perfect_gamble\",\"uniqueKey\":\"https://www.rottentomatoes.com/m/the_perfect_gamble\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"Error: Navigation timed out after 60 seconds.\\n    at handleRequestTimeout (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/core/crawlers/crawler_utils.js:13:11)\\n    at PlaywrightCrawler._handleNavigationTimeout (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/browser/internals/browser-crawler.js:360:46)\\n    at PlaywrightCrawler._handleNavigation (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/browser/internals/browser-crawler.js:337:24)\\n    at runNextTicks (node:internal/process/task_queues:65:5)\\n    at process.processImmediate (node:internal/timers:453:9)\\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)\\n    at async PlaywrightCrawler._runRequestHandler (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/browser/internals/browser-crawler.js:260:13)\\n    at async PlaywrightCrawler._runRequestHandler (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/playwright/internals/playwright-crawler.js:114:9)\\n    at async wrap (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@apify/timeout/cjs/index.cjs:54:21)\"],\"headers\":{},\"userData\":{\"label\":\"movie\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":5}}}",
+	"method": "GET",
+	"orderNo": 1763041611834,
+	"retryCount": 1,
+	"uniqueKey": "https://www.rottentomatoes.com/m/the_perfect_gamble",
+	"url": "https://www.rottentomatoes.com/m/the_perfect_gamble"
+}

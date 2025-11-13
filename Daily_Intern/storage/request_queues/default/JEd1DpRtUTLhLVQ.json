@@ -1,0 +1,9 @@
+{
+	"id": "JEd1DpRtUTLhLVQ",
+	"json": "{\"id\":\"JEd1DpRtUTLhLVQ\",\"url\":\"https://www.rottentomatoes.com/m/warfare\",\"uniqueKey\":\"https://www.rottentomatoes.com/m/warfare\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"movie\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1763041611834,
+	"retryCount": 0,
+	"uniqueKey": "https://www.rottentomatoes.com/m/warfare",
+	"url": "https://www.rottentomatoes.com/m/warfare"
+}

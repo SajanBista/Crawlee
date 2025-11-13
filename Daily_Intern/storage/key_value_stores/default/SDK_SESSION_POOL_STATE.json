@@ -1,0 +1,1058 @@
+{
+  "usableSessionsCount": 13,
+  "retiredSessionsCount": 2,
+  "sessions": [
+    {
+      "id": "session_LTFktqwi0M",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:29:10.224Z",
+      "createdAt": "2025-11-13T13:39:10.223Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_Gg6Z1dS3KT",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "akacd_RTReplatform",
+            "value": "2147483647~rv=94~id=bfbc76b5ac10fdd4a1de0b026e134fb9",
+            "expires": "2026-12-18T13:39:13.038Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-13T13:40:33.969Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "eXr91Jra",
+            "value": "A_4QcX2aAQAAuvXNE512FunMKRfFXgy6b7zSsGoM9Ys04t6imrVYwNCBxAIQAVn5w-aucl6ZwH9eCOfvosJeCA|1|0|ad1108ee126813cf6be389d1f7024f6544f7b1e8",
+            "expires": "2026-12-18T13:40:13.118Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.970Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "__host_color_scheme",
+            "value": "GlK0FeMR-jlFp_SdTEEHYRQZYiGWTHv76osuM3HAAxc3bnwzpsPA",
+            "expires": "2025-11-13T14:30:33.963Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-13T13:40:33.974Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "__host_theme_options",
+            "value": "1763041155797",
+            "expires": "2025-11-13T14:30:33.963Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-13T13:40:33.974Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "OTGPPConsent",
+            "value": "DBABLA~BVQqAAAAAACA.QA",
+            "expires": "2026-12-18T13:40:15.745Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.974Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "usprivacy",
+            "value": "1YNN",
+            "expires": "2026-11-13T13:40:15.000Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2025-11-13T13:40:33.976Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "check",
+            "value": "true",
+            "expires": "2025-11-13T14:30:33.963Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.976Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "AMCVS_8CF467C25245AE3F0A490D4C%40AdobeOrg",
+            "value": "1",
+            "expires": "2025-11-13T14:30:33.963Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.976Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "s_cc",
+            "value": "true",
+            "expires": "2025-11-13T14:30:33.963Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.976Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "_ALGOLIA",
+            "value": "anonymous-2de3e9f1-95d1-405a-8333-35bd1fed7f50",
+            "expires": "2026-05-12T13:39:28.000Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2025-11-13T13:40:33.977Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "AMCV_8CF467C25245AE3F0A490D4C%40AdobeOrg",
+            "value": "-408604571%7CMCMID%7C11059735570299897983763383574280051300%7CMCAAMLH-1763645964%7C9%7CMCAAMB-1763645964%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1763048364s%7CNONE%7CMCSYNCSOP%7C411-20413%7CvVersion%7C4.6.0",
+            "expires": "2026-12-18T13:39:29.723Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.977Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "__gads",
+            "value": "ID=162f81130a0e37e0:T=1763041171:RT=1763041171:S=ALNI_MaVqiS2hwiDOuty0CTPkDvmjLK3BA",
+            "expires": "2026-12-08T13:39:31.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.977Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "__gpi",
+            "value": "UID=000012c80b32a979:T=1763041171:RT=1763041171:S=ALNI_MYG1H3KQf4cyR612gN5HhCoSlQePw",
+            "expires": "2026-12-08T13:39:31.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.977Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "__eoi",
+            "value": "ID=1af0a119b64e3e3e:T=1763041171:RT=1763041171:S=AA-AfjbAAog8_Zw4KZUIHzet-T1M",
+            "expires": "2026-05-12T13:39:31.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.977Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "sailthru_pageviews",
+            "value": "1",
+            "expires": "2025-11-13T14:09:33.104Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-13T13:40:33.977Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "_cb",
+            "value": "BKAWrFCBBBXfD0yYMY",
+            "expires": "2026-12-13T13:40:17.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.977Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "akamai_generated_location",
+            "value": "{\"zip\":\"20170-20172+20192+22095\",\"city\":\"HERNDON\",\"state\":\"VA\",\"county\":\"FAIRFAX\",\"areacode\":\"703\",\"lat\":\"38.9807\",\"long\":\"-77.3799\",\"countrycode\":\"US\"}",
+            "expires": "2025-12-13T13:40:13.450Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.978Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Thu+Nov+13+2025+19%3A25%3A15+GMT%2B0545+(Nepal+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id&hosts=&consentId=9da689cf-18e9-4083-a673-571b44ef258b&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.rottentomatoes.com%2Fbrowse%2Fmovies_at_home%2Fgenres%3Aaction&GPPCookiesCount=1&gppSid=7&groups=OSSTA_BG%3A1%2CUSP%3A1%2COOF%3A1%2C1%3A1%2C4%3A1%2C7%3A1",
+            "expires": "2026-12-18T13:40:15.924Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.978Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "mbox",
+            "value": "session#82d41f8b5e4a4f5ea190dcb90b114fd7#1763043077|PC#82d41f8b5e4a4f5ea190dcb90b114fd7.34_0#1826286017",
+            "expires": "2026-12-18T13:40:16.677Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.978Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "_chartbeat2",
+            "value": ".1763041173311.1763041217707.1.cZn-mBpo8LoUwJwoDaXiIhDyZCa8.1",
+            "expires": "2026-12-13T13:40:17.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.978Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "_cb_svref",
+            "value": "external",
+            "expires": "2025-11-13T14:10:17.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.978Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "_awl",
+            "value": "2.1763041217.5-e1ba3df7061736f9bc08c9067c56340a-6763652d75732d7765737431-0",
+            "expires": "2026-12-13T13:40:17.802Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.978Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          },
+          {
+            "key": "cto_bundle",
+            "value": "y8xSsV9UUVIzSURBWXBnY1ZFM2ZTJTJCJTJCTXJjOTRCaEQlMkZtWDVucDJCRHh6QnZPQ05GVDIzY0YyMnNKMVlZSUFNM1Y1Mnk4UWIlMkJDSmVnTnVrS3dVTExxRCUyQkNod0tiJTJCSnNISU1KNm5qcFVDajB4STA2UEg1MTMzNG5QWnM3JTJCSHJEVGJEeWt5UDMwTUJWQmlpNmlvbFN5RVN6OXdUbFZqQW44Q1l2UmNVYUF4RjNNY00lMkZia2p2WHRhTUp3S1FnMzY5YlV2NTBqU0FkbVBBTFN6bG5OZ3dDTVZDJTJGZUt3JTNEJTNE",
+            "expires": "2026-12-08T13:40:23.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:40:33.978Z",
+            "lastAccessed": "2025-11-13T13:40:34.970Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:29:10.225Z",
+      "createdAt": "2025-11-13T13:39:10.225Z",
+      "usageCount": 14,
+      "maxUsageCount": 50,
+      "errorScore": 22.5
+    },
+    {
+      "id": "session_RNKzREQcTd",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:30:11.104Z",
+      "createdAt": "2025-11-13T13:40:11.104Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_fw5JbB6S7c",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:30:34.373Z",
+      "createdAt": "2025-11-13T13:40:34.373Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_eg5wMaZ7Qy",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:30:34.374Z",
+      "createdAt": "2025-11-13T13:40:34.374Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_xixoPrpYrZ",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:30:34.566Z",
+      "createdAt": "2025-11-13T13:40:34.566Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_4iq0NpU7qK",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:31:35.048Z",
+      "createdAt": "2025-11-13T13:41:35.048Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_7mCeMDQA4C",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "akamai_generated_location",
+            "value": "{\"zip\":\"95101+95103+95106+95108-95113+95115-95136+95138-95139+95141+95148+95150-95161+95164+95170+95172-95173+95190-95194+95196\",\"city\":\"SANJOSE\",\"state\":\"CA\",\"county\":\"SANTACLARA\",\"areacode\":\"408\",\"lat\":\"37.3435\",\"long\":\"-121.8887\",\"countrycode\":\"US\"}",
+            "expires": "2025-12-13T13:42:35.902Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.872Z",
+            "lastAccessed": "2025-11-13T13:42:55.999Z"
+          },
+          {
+            "key": "akacd_RTReplatform",
+            "value": "2147483647~rv=42~id=36b43e8b1f07499bb87032b26bb03b77",
+            "expires": "2026-12-18T13:41:37.639Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-13T13:42:20.873Z",
+            "lastAccessed": "2025-11-13T13:42:55.996Z"
+          },
+          {
+            "key": "eXr91Jra",
+            "value": "A6RIc32aAQAA6TiwKkAyrJM_rUF3XCpRfOrUmOD0I3uK-sY2143XhZMYg0MGAWj9MF6ucpDgwH9eCOfvosJeCA|1|0|d50a5f0d1851fa23384822aee3b4564f78937cb1",
+            "expires": "2026-12-18T13:42:33.708Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.873Z",
+            "lastAccessed": "2025-11-13T13:42:55.996Z"
+          },
+          {
+            "key": "__host_theme_options",
+            "value": "1763041300249",
+            "expires": "2025-11-13T14:32:21.186Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-13T13:42:20.873Z",
+            "lastAccessed": "2025-11-13T13:42:55.997Z"
+          },
+          {
+            "key": "__host_color_scheme",
+            "value": "jzrTv35t-1dFZTYooH7xc8oX8QXPEs0xvd8Gqrg5Zp0x8Qiwpicw",
+            "expires": "2025-11-13T14:32:21.186Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-13T13:42:20.873Z",
+            "lastAccessed": "2025-11-13T13:42:55.997Z"
+          },
+          {
+            "key": "OTGPPConsent",
+            "value": "DBABLA~BVQqAAAAAACA.QA",
+            "expires": "2026-12-18T13:42:37.705Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.873Z",
+            "lastAccessed": "2025-11-13T13:42:55.997Z"
+          },
+          {
+            "key": "usprivacy",
+            "value": "1YNN",
+            "expires": "2026-11-13T13:42:38.000Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2025-11-13T13:42:20.873Z",
+            "lastAccessed": "2025-11-13T13:42:55.997Z"
+          },
+          {
+            "key": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Thu+Nov+13+2025+19%3A27%3A38+GMT%2B0545+(Nepal+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id&hosts=&consentId=363d7f64-3f56-469c-b749-2c27eec577a5&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&GPPCookiesCount=1&gppSid=7&groups=OSSTA_BG%3A1%2CUSP%3A1%2COOF%3A1%2C1%3A1%2C4%3A1%2C7%3A1&AwaitingReconsent=false",
+            "expires": "2026-12-18T13:42:38.245Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.873Z",
+            "lastAccessed": "2025-11-13T13:42:55.999Z"
+          },
+          {
+            "key": "check",
+            "value": "true",
+            "expires": "2025-11-13T14:32:55.995Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.873Z",
+            "lastAccessed": "2025-11-13T13:42:55.997Z"
+          },
+          {
+            "key": "AMCVS_8CF467C25245AE3F0A490D4C%40AdobeOrg",
+            "value": "1",
+            "expires": "2025-11-13T14:32:21.186Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.873Z",
+            "lastAccessed": "2025-11-13T13:42:55.997Z"
+          },
+          {
+            "key": "s_cc",
+            "value": "true",
+            "expires": "2025-11-13T14:32:55.995Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.873Z",
+            "lastAccessed": "2025-11-13T13:42:55.997Z"
+          },
+          {
+            "key": "mbox",
+            "value": "session#305e12f439ef48f1b8fbebc53b3a050a#1763043218|PC#305e12f439ef48f1b8fbebc53b3a050a.34_0#1826286158",
+            "expires": "2026-12-18T13:42:37.551Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.873Z",
+            "lastAccessed": "2025-11-13T13:42:55.999Z"
+          },
+          {
+            "key": "__gads",
+            "value": "ID=9366afe262afd872:T=1763041310:RT=1763041310:S=ALNI_Mbc_oVcqbXRNOsal5TNSIbnTuJIRA",
+            "expires": "2026-12-08T13:41:50.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.874Z",
+            "lastAccessed": "2025-11-13T13:42:55.997Z"
+          },
+          {
+            "key": "__gpi",
+            "value": "UID=000012c80b4f9b7f:T=1763041310:RT=1763041310:S=ALNI_MbIoILIHyxBwdJficlgjSvAQxw4Lw",
+            "expires": "2026-12-08T13:41:50.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.874Z",
+            "lastAccessed": "2025-11-13T13:42:55.997Z"
+          },
+          {
+            "key": "__eoi",
+            "value": "ID=a8932402544e22e1:T=1763041310:RT=1763041310:S=AA-AfjZ3RZDUnaasjaEHzxA39xPU",
+            "expires": "2026-05-12T13:41:50.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.874Z",
+            "lastAccessed": "2025-11-13T13:42:55.997Z"
+          },
+          {
+            "key": "cto_bundle",
+            "value": "RUvFM19mYklIQ1VYJTJGdkVPNFZDdEZGJTJCUXJSTWw0Uk13VG5IbTdST2NkQzR1MG5KM1BCYkxPQ1RreTZkazR2bWhUaDdhVHg5bnZFVGxJZzZ3NHF4R043MFFPT2s4eVltalQ4QlExeTNoTTB2bGtwc1ljUDR1Z3JKblptZk85bCUyRkZTTkJ6QVY2TGxoZ0YlMkY1WXNpRWYzSCUyQklQTmolMkZwb3UlMkZ2Q3Jmak8yV2pENkFFaExsdyUzRA",
+            "expires": "2026-12-08T13:42:45.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.874Z",
+            "lastAccessed": "2025-11-13T13:42:55.999Z"
+          },
+          {
+            "key": "AMCV_8CF467C25245AE3F0A490D4C%40AdobeOrg",
+            "value": "-408604571%7CMCMID%7C54714490679927359553179566841542226567%7CMCAAMLH-1763646107%7C9%7CMCAAMB-1763646107%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1763048507s%7CNONE%7CMCSYNCSOP%7C411-20413%7CvVersion%7C4.6.0",
+            "expires": "2026-12-18T13:42:03.295Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.875Z",
+            "lastAccessed": "2025-11-13T13:42:55.999Z"
+          },
+          {
+            "key": "_ALGOLIA",
+            "value": "anonymous-e09adc86-f879-401e-bf02-9cdbef1d457a",
+            "expires": "2026-05-12T13:42:03.000Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2025-11-13T13:42:20.875Z",
+            "lastAccessed": "2025-11-13T13:42:55.999Z"
+          },
+          {
+            "key": "_cb",
+            "value": "etrx8B_PLYkCcevKn",
+            "expires": "2026-12-13T13:42:46.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.875Z",
+            "lastAccessed": "2025-11-13T13:42:55.999Z"
+          },
+          {
+            "key": "_cb_svref",
+            "value": "external",
+            "expires": "2025-11-13T14:12:10.000Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.875Z",
+            "lastAccessed": "2025-11-13T13:42:55.999Z"
+          },
+          {
+            "key": "_awl",
+            "value": "2.1763041360.5-b4f21acb5b2ebecb7a73389770c7fd9e-6763652d75732d63656e7472616c31-0",
+            "expires": "2026-12-13T13:42:40.482Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.875Z",
+            "lastAccessed": "2025-11-13T13:42:55.999Z"
+          },
+          {
+            "key": "_chartbeat2",
+            "value": ".1763041330050.1763041366056.1.D1H1k5EdlYKCQ1-NsJXGqUB_JFy8.1",
+            "expires": "2026-12-13T13:42:46.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.875Z",
+            "lastAccessed": "2025-11-13T13:42:56.000Z"
+          },
+          {
+            "key": "_cb_svref",
+            "value": "external",
+            "expires": "2025-11-13T14:12:46.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:20.875Z",
+            "lastAccessed": "2025-11-13T13:42:56.000Z"
+          },
+          {
+            "key": "sailthru_pageviews",
+            "value": "2",
+            "expires": "2025-11-13T14:12:12.170Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-13T13:42:20.875Z",
+            "lastAccessed": "2025-11-13T13:42:55.999Z"
+          },
+          {
+            "key": "QSI_HistorySession",
+            "value": "https%3A%2F%2Fwww.rottentomatoes.com%2Fm%2Fgood_fortune~1763041343893",
+            "expires": "2025-11-13T14:32:55.995Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-13T13:42:55.999Z",
+            "lastAccessed": "2025-11-13T13:42:55.999Z"
+          },
+          {
+            "key": "_chartbeat4",
+            "value": "t=BdkY1CDzZTF_By9hfHCtPAoFDByqcJ&E=5&x=0&c=0.35&y=6305&w=900",
+            "expires": "2025-11-13T13:43:30.000Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:42:55.999Z",
+            "lastAccessed": "2025-11-13T13:42:55.999Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:31:35.054Z",
+      "createdAt": "2025-11-13T13:41:35.054Z",
+      "usageCount": 6,
+      "maxUsageCount": 50,
+      "errorScore": 10
+    },
+    {
+      "id": "session_IyVFuXp0Tf",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:31:35.370Z",
+      "createdAt": "2025-11-13T13:41:35.370Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_958YqPR0Pl",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:31:35.390Z",
+      "createdAt": "2025-11-13T13:41:35.390Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_nFdY5ahTqr",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:32:30.993Z",
+      "createdAt": "2025-11-13T13:42:30.993Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_PZLC8eNG6Q",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:32:31.046Z",
+      "createdAt": "2025-11-13T13:42:31.046Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_VAwqEOuVDg",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:32:31.268Z",
+      "createdAt": "2025-11-13T13:42:31.268Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_fbetZZljbj",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "akamai_generated_location",
+            "value": "{\"zip\":\"95101+95103+95106+95108-95113+95115-95136+95138-95139+95141+95148+95150-95161+95164+95170+95172-95173+95190-95194+95196\",\"city\":\"SANJOSE\",\"state\":\"CA\",\"county\":\"SANTACLARA\",\"areacode\":\"408\",\"lat\":\"37.3435\",\"long\":\"-121.8887\",\"countrycode\":\"US\"}",
+            "expires": "2025-12-13T13:42:38.673Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "akacd_RTReplatform",
+            "value": "2147483647~rv=83~id=d95e8e7310a660c5114222c204650e29",
+            "expires": "2026-12-18T13:42:32.850Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "eXr91Jra",
+            "value": "A3sddH2aAQAAv9heNv1SFobUbNdTLNPJnEtwffW16oYpeX5vE5_1LUwGAgdMAaZYqS2ucpDgwH9eCOfvosJeCA|1|0|f1e2d96dd7327d6637405ba07f8777ee2b9f3923",
+            "expires": "2026-12-18T13:42:33.279Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "__host_color_scheme",
+            "value": "sHjA54EX-SEEDV2dBslezR-XpeT9FP1vqVDb0_dxkJNg5b6nVrzA",
+            "expires": "2025-11-13T14:33:07.783Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "__host_theme_options",
+            "value": "1763041355131",
+            "expires": "2025-11-13T14:33:07.783Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "OTGPPConsent",
+            "value": "DBABLA~BVQqAAAAAACA.QA",
+            "expires": "2026-12-18T13:42:39.830Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "usprivacy",
+            "value": "1YNN",
+            "expires": "2026-11-13T13:42:39.000Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "OptanonConsent",
+            "value": "isGpcEnabled=0&datestamp=Thu+Nov+13+2025+19%3A27%3A40+GMT%2B0545+(Nepal+Time)&version=202506.1.0&browserGpcFlag=0&isIABGlobal=false&identifierType=Cookie+Unique+Id&hosts=&consentId=cd74b9d7-4876-4aed-a764-1174ce7227dd&interactionCount=0&isAnonUser=1&landingPath=https%3A%2F%2Fwww.rottentomatoes.com%2Fm%2Fprey_2022&GPPCookiesCount=1&gppSid=7&groups=OSSTA_BG%3A1%2CUSP%3A1%2COOF%3A1%2C1%3A1%2C4%3A1%2C7%3A1",
+            "expires": "2026-12-18T13:42:40.139Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "check",
+            "value": "true",
+            "expires": "2025-11-13T14:33:07.783Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "AMCVS_8CF467C25245AE3F0A490D4C%40AdobeOrg",
+            "value": "1",
+            "expires": "2025-11-13T14:33:07.783Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "s_cc",
+            "value": "true",
+            "expires": "2025-11-13T14:33:07.783Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "mbox",
+            "value": "session#b4d13ed128164511887d97c0b7af9d1c#1763043223|PC#b4d13ed128164511887d97c0b7af9d1c.35_0#1826286163",
+            "expires": "2026-12-18T13:42:42.667Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "__gads",
+            "value": "ID=d8e45f2297c11124:T=1763041364:RT=1763041364:S=ALNI_MZiJUvaK-S_k3oTu_DnTkuAnp2FYw",
+            "expires": "2026-12-08T13:42:44.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "__gpi",
+            "value": "UID=0000130c4f267b91:T=1763041364:RT=1763041364:S=ALNI_MY1FHPIjgpSrnTyCwO80R1eGdxdxQ",
+            "expires": "2026-12-08T13:42:44.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "__eoi",
+            "value": "ID=dbfb8f6b17decfad:T=1763041364:RT=1763041364:S=AA-Afja7ZpWvP17ASEPerkvRWRty",
+            "expires": "2026-05-12T13:42:44.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.784Z",
+            "lastAccessed": "2025-11-13T13:43:07.784Z"
+          },
+          {
+            "key": "cto_bundle",
+            "value": "TeatIl8lMkZ5cjNXa3RXbk0zNjhSc0oxNTJrTzNMaFY3QmxIdFV2WHFEaGRDWXdXQThlRzVyV2VnNDNWd1RYSzd1bkdsM0hycEZYOUcybDlHY0xsU2V4UGZBUVU5cGdhcDhrQWw0Tm1tbURJa1V1a0ExbWNqNzVkNkdKUDhSSjVRYUwxMkFMZUxhZkZxYzNmQWtLQmxiaFJHSWl3JTJCUzdyd1RHWHRCMXFmQXprUHBaT2lBaU1sU0ExS0hCMk1HYVdQRnpLbVBrWGNIWHVkOGZyQmE2bWdQVDZsN2pLZyUzRCUzRA",
+            "expires": "2026-12-08T13:42:48.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.785Z",
+            "lastAccessed": "2025-11-13T13:43:07.785Z"
+          },
+          {
+            "key": "AMCV_8CF467C25245AE3F0A490D4C%40AdobeOrg",
+            "value": "-408604571%7CMCMID%7C51885786470098804250627133735678421459%7CMCAAMLH-1763646161%7C7%7CMCAAMB-1763646161%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1763048561s%7CNONE%7CMCSYNCSOP%7C411-20413%7CvVersion%7C4.6.0",
+            "expires": "2026-12-18T13:42:53.001Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.786Z",
+            "lastAccessed": "2025-11-13T13:43:07.786Z"
+          },
+          {
+            "key": "sailthru_pageviews",
+            "value": "1",
+            "expires": "2025-11-13T14:12:57.646Z",
+            "domain": "www.rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": true,
+            "creation": "2025-11-13T13:43:07.786Z",
+            "lastAccessed": "2025-11-13T13:43:07.786Z"
+          },
+          {
+            "key": "_awl",
+            "value": "2.1763041377.5-bc65cf6bda6598e62188027b53fd1b83-6763652d75732d7765737431-0",
+            "expires": "2026-12-13T13:42:57.944Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.786Z",
+            "lastAccessed": "2025-11-13T13:43:07.786Z"
+          },
+          {
+            "key": "_cb",
+            "value": "DQfza5BoVt6FCfn1Df",
+            "expires": "2026-12-13T13:42:58.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.786Z",
+            "lastAccessed": "2025-11-13T13:43:07.786Z"
+          },
+          {
+            "key": "_chartbeat2",
+            "value": ".1763041378392.1763041378392.1.BIz42qoUZpRDVWKhk-vlacDswI1V.1",
+            "expires": "2026-12-13T13:42:58.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.786Z",
+            "lastAccessed": "2025-11-13T13:43:07.786Z"
+          },
+          {
+            "key": "_cb_svref",
+            "value": "external",
+            "expires": "2025-11-13T14:12:58.000Z",
+            "domain": "rottentomatoes.com",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2025-11-13T13:43:07.786Z",
+            "lastAccessed": "2025-11-13T13:43:07.786Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:32:31.271Z",
+      "createdAt": "2025-11-13T13:42:31.271Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_oyEYIXphen",
+      "cookieJar": {
+        "version": "tough-cookie@6.0.0",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2025-11-13T14:33:06.099Z",
+      "createdAt": "2025-11-13T13:43:06.099Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    }
+  ]
+}

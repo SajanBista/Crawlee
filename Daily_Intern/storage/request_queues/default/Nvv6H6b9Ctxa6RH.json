@@ -1,0 +1,9 @@
+{
+	"id": "Nvv6H6b9Ctxa6RH",
+	"json": "{\"id\":\"Nvv6H6b9Ctxa6RH\",\"url\":\"https://www.rottentomatoes.com/m/sovereign\",\"uniqueKey\":\"https://www.rottentomatoes.com/m/sovereign\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"movie\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1763041611834,
+	"retryCount": 0,
+	"uniqueKey": "https://www.rottentomatoes.com/m/sovereign",
+	"url": "https://www.rottentomatoes.com/m/sovereign"
+}

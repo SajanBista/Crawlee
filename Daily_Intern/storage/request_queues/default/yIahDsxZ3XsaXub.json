@@ -1,0 +1,9 @@
+{
+	"id": "yIahDsxZ3XsaXub",
+	"json": "{\"id\":\"yIahDsxZ3XsaXub\",\"url\":\"https://www.rottentomatoes.com/m/relay\",\"uniqueKey\":\"https://www.rottentomatoes.com/m/relay\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"page.goto: Target page, context or browser has been closed\\nCall log:\\n\\u001b[2m  - navigating to \\\"https://www.rottentomatoes.com/m/relay\\\", waiting until \\\"load\\\"\\u001b[22m\\n\\n    at gotoExtended (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/playwright/internals/utils/playwright-utils.js:166:17)\\n    at PlaywrightCrawler._navigationHandler (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/playwright/internals/playwright-crawler.js:117:52)\\n    at PlaywrightCrawler._handleNavigation (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/browser/internals/browser-crawler.js:334:52)\\n    at async PlaywrightCrawler._runRequestHandler (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/browser/internals/browser-crawler.js:260:13)\\n    at async PlaywrightCrawler._runRequestHandler (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/playwright/internals/playwright-crawler.js:114:9)\\n    at async wrap (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@apify/timeout/cjs/index.cjs:54:21)\"],\"headers\":{},\"userData\":{\"label\":\"movie\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\",\"state\":5}}}",
+	"method": "GET",
+	"orderNo": 1763041440673,
+	"retryCount": 1,
+	"uniqueKey": "https://www.rottentomatoes.com/m/relay",
+	"url": "https://www.rottentomatoes.com/m/relay"
+}

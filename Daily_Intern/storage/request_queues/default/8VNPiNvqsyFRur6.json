@@ -1,0 +1,9 @@
+{
+	"id": "8VNPiNvqsyFRur6",
+	"json": "{\"id\":\"8VNPiNvqsyFRur6\",\"url\":\"https://www.rottentomatoes.com/browse/movies_at_home/genres:action\",\"loadedUrl\":\"https://www.rottentomatoes.com/browse/movies_at_home/genres:action\",\"uniqueKey\":\"https://www.rottentomatoes.com/browse/movies_at_home/genres:action\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"Error: Navigation timed out after 60 seconds.\\n    at handleRequestTimeout (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/core/crawlers/crawler_utils.js:13:11)\\n    at PlaywrightCrawler._handleNavigationTimeout (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/browser/internals/browser-crawler.js:360:46)\\n    at PlaywrightCrawler._handleNavigation (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/browser/internals/browser-crawler.js:337:24)\\n    at async PlaywrightCrawler._runRequestHandler (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/browser/internals/browser-crawler.js:260:13)\\n    at async PlaywrightCrawler._runRequestHandler (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@crawlee/playwright/internals/playwright-crawler.js:114:9)\\n    at async wrap (/Users/sajanbista/Desktop/Scraping/Crawlee/node_modules/@apify/timeout/cjs/index.cjs:54:21)\"],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2025-11-13T13:40:34.520Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 1,
+	"uniqueKey": "https://www.rottentomatoes.com/browse/movies_at_home/genres:action",
+	"url": "https://www.rottentomatoes.com/browse/movies_at_home/genres:action"
+}

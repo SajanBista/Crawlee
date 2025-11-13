@@ -1,0 +1,9 @@
+{
+	"id": "gOlgeRIIeDlRnDu",
+	"json": "{\"id\":\"gOlgeRIIeDlRnDu\",\"url\":\"https://www.rottentomatoes.com/m/the_predator\",\"uniqueKey\":\"https://www.rottentomatoes.com/m/the_predator\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"movie\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1763041611834,
+	"retryCount": 0,
+	"uniqueKey": "https://www.rottentomatoes.com/m/the_predator",
+	"url": "https://www.rottentomatoes.com/m/the_predator"
+}

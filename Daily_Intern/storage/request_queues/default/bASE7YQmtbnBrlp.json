@@ -1,0 +1,9 @@
+{
+	"id": "bASE7YQmtbnBrlp",
+	"json": "{\"id\":\"bASE7YQmtbnBrlp\",\"url\":\"https://www.rottentomatoes.com/m/running_man\",\"uniqueKey\":\"https://www.rottentomatoes.com/m/running_man\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"movie\",\"__crawlee\":{\"crawlDepth\":1,\"enqueueStrategy\":\"same-hostname\"}}}",
+	"method": "GET",
+	"orderNo": 1763041611834,
+	"retryCount": 0,
+	"uniqueKey": "https://www.rottentomatoes.com/m/running_man",
+	"url": "https://www.rottentomatoes.com/m/running_man"
+}
